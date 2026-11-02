@@ -1,0 +1,8 @@
+severity,column,reason,flag_count
+MISSING,Children,Empty or missing-value marker,4
+MISSING,Country,Empty or missing-value marker,24
+REVIEW,ADR,ADR exceeds illustrative review threshold 1000; not a deletion rule,1
+REVIEW,ADR,Zero/negative ADR: investigate; not automatically an error,1208
+REVIEW,Adults+Children+Babies,Total recorded guests is zero; investigate,167
+REVIEW,Country,Recognized historical code; check its meaning and booking date,3
+REVIEW,StaysInWeekendNights+StaysInWeekNights,Total recorded nights is zero; investigate,331

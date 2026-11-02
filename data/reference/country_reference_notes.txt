@@ -1,0 +1,62 @@
+COUNTRY CODES FOR MARIAM
+Retrieved 2 November 2026
+
+Use the current list
+Current countries contains 249 ISO 3166-1 country/territory entries: alpha-2, alpha-3 and three-digit numeric codes. These are not telephone dialling codes.
+
+Use the historical list
+Former country codes contains all 31 entries in the retrieved maintained ISO 3166-3 dataset, with old codes, source withdrawal dates and successor mappings.
+
+Edition distinction
+ISO 3166-3:2013 is Part 3 for formerly used country names. It does not mean three-letter country codes. It was withdrawn in 2020 and replaced by ISO 3166-3:2020.
+
+2013 preview discrepancy
+The available 2013 preview p9 prints GEKI for Gilbert and Ellice Islands. The maintained dataset uses GEHH. Both are preserved. The effective correction date is unverified.
+
+2013 coverage
+24 historical rows were cross-checked against the available 2013 preview. Its remaining seven rows were not visible. Blank preview-code cells mean not checked, not no code. This workbook is not a certified exact-edition transcription.
+
+Historical numeric values
+The old-numeric column preserves the maintained dataset. Some values are blank in the 2013 preview but populated in that dataset. Do not substitute one version silently.
+
+Do not join on old alpha-2 alone
+AI, BQ and GE were reused. CS was used for both Czechoslovakia and Serbia and Montenegro. Use date plus historical alpha-3/alpha-4 when matching old records.
+
+Splits are not one-to-one
+A successor list is a reference mapping, not proof of a record’s modern location. Yugoslavia YUCS first maps to historical CS/SCG, then to later successor codes. USSR has multiple successors.
+
+Numeric codes and CSV
+Excel stores numeric country identifiers as text. When importing CSV, set code columns to Text to retain 004, 010 and other leading zeros. CSV itself cannot force an Excel data type.
+
+Dates
+Withdrawn dates retain the dataset precision: some are year-only. They describe withdrawal of the code, not the full lifetime of a country. Dates are not filled in or invented.
+
+Current verification
+All 248 matching entries in the retrieved UN M49 table agree on alpha-2, alpha-3 and numeric values. Taiwan has no separate retrieved UN row and retains the maintained dataset codes. UN naming can differ from the dataset name.
+
+Research date
+Retrieved 2 November 2026. For reproducing an older study, use the country list/version appropriate to that study. The supplied reference’s 24 March 2018 access date is not our retrieval date.
+
+Correct organization name
+International Organization for Standardization (ISO), rather than International Standards Organization.
+
+Suggested historical citation
+International Organization for Standardization. (2013). ISO 3166-3:2013: Codes for the representation of names of countries and their subdivisions — Part 3: Code for formerly used names of countries.
+
+Official 2013 record
+https://www.iso.org/standard/63547.html
+
+Official current guide
+https://www.iso.org/iso-3166-country-codes.html
+
+Official UN verification
+https://unstats.un.org/unsd/methodology/m49/overview/
+
+Maintained datasets
+https://raw.githubusercontent.com/pycountry/pycountry/main/src/pycountry/databases/iso3166-1.json ; https://raw.githubusercontent.com/pycountry/pycountry/main/src/pycountry/databases/iso3166-3.json
+
+2013 preview used
+https://previewnorm.com/iso/ISO%203166-3-2013%20PDF.pdf
+
+Scope
+A compiled factual code reference with sources, not a redistribution of the full copyrighted ISO standard. Territories and countries are included according to the source datasets.

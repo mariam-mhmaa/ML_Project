@@ -1,0 +1,1739 @@
+record_number,column,severity,raw_value,reason
+1,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+135,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+140,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+167,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+197,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+221,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+252,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+281,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+301,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+317,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+333,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+333,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+335,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+336,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+337,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+338,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+339,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+340,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+342,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+343,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+382,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+393,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+414,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+416,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+435,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+443,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+474,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+474,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+475,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+475,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+477,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+478,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+483,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+535,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+537,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+539,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+541,Children,MISSING,NA,Empty or missing-value marker
+544,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+574,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+580,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+582,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+584,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+585,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+598,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+601,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+608,Children,MISSING,NA,Empty or missing-value marker
+612,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+620,Children,MISSING,NA,Empty or missing-value marker
+647,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+668,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+678,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+688,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+691,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+729,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+738,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+819,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+829,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+863,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+863,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+874,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+891,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+929,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+961,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+961,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+962,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+962,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+966,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+978,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+981,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+997,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+997,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+1042,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1060,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1062,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1080,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1080,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+1101,Children,MISSING,NA,Empty or missing-value marker
+1197,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1283,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1285,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1552,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1566,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1575,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1603,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1704,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1705,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1749,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1767,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1795,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1822,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1824,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1826,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1838,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1865,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1893,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1896,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1965,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+1965,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+2053,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2058,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2081,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2082,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2083,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2104,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2112,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2140,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2214,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2248,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2282,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2360,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2365,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2377,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2379,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2393,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2393,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+2443,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2452,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2532,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2532,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+2605,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2681,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2707,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2714,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2769,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2812,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2812,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+2821,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2857,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2875,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+2875,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+3110,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3111,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3139,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3185,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3211,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3353,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3475,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3480,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3548,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3552,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3569,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3624,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3634,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3684,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3694,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3694,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+3737,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3737,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+3738,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3738,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+3807,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3943,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+3958,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4300,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4444,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4444,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+4461,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4468,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4508,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4508,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+4518,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4531,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4691,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4696,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4828,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+4828,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+4832,Country,MISSING,NULL,Empty or missing-value marker
+4833,Country,MISSING,NULL,Empty or missing-value marker
+4834,Country,MISSING,NULL,Empty or missing-value marker
+4835,Country,MISSING,NULL,Empty or missing-value marker
+4836,Country,MISSING,NULL,Empty or missing-value marker
+4837,Country,MISSING,NULL,Empty or missing-value marker
+4838,Country,MISSING,NULL,Empty or missing-value marker
+4839,Country,MISSING,NULL,Empty or missing-value marker
+4840,Country,MISSING,NULL,Empty or missing-value marker
+4842,Country,MISSING,NULL,Empty or missing-value marker
+4843,Country,MISSING,NULL,Empty or missing-value marker
+4844,Country,MISSING,NULL,Empty or missing-value marker
+4845,Country,MISSING,NULL,Empty or missing-value marker
+4846,Country,MISSING,NULL,Empty or missing-value marker
+5065,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+5065,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+5453,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+5465,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+5490,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+5560,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+5560,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+5840,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+5846,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+5850,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+5916,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+5917,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+5958,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+6010,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+6144,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+6144,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+6519,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+6519,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+6537,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+6537,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+6643,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+6663,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+6663,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+6797,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+6797,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+6798,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+6798,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+6877,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+7010,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+7083,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+7107,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+7107,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+7121,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+7121,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+7385,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+7409,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+7479,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+7870,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+8298,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+8299,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+8300,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+8456,ADR,REVIEW,5400,ADR exceeds illustrative review threshold 1000; not a deletion rule
+8743,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+9036,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+9205,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+9205,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+9223,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+10033,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+10165,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+10165,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+10411,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+10642,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+10643,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+10939,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+11829,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+11850,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+12638,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+13059,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+13062,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+13422,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+13422,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+13966,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+13966,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+13978,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+13978,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+13988,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+13988,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+14034,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+14034,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+14179,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+14191,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+14250,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+14440,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+14532,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+14645,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+15211,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+15365,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+15750,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+16342,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+16342,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+17514,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+17731,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+18658,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+20357,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+20426,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+20592,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+20592,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+20592,Country,MISSING,NULL,Empty or missing-value marker
+20780,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+21185,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+21185,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+21185,Country,MISSING,NULL,Empty or missing-value marker
+21185,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+21186,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+21186,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+21186,Country,MISSING,NULL,Empty or missing-value marker
+21186,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+21190,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+21190,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+21190,Country,MISSING,NULL,Empty or missing-value marker
+21190,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+21368,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+21399,Country,REVIEW,TMP,Recognized historical code; check its meaning and booking date
+21421,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+22908,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+22908,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+23171,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+23546,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+23652,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+23737,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+23737,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+24723,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+24723,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+25463,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+25715,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+25848,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+25848,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+25848,Country,MISSING,NULL,Empty or missing-value marker
+25848,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+25849,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+25849,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+25849,Country,MISSING,NULL,Empty or missing-value marker
+25849,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+25850,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+25850,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+25850,Country,MISSING,NULL,Empty or missing-value marker
+25850,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+25851,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+25851,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+25851,Country,MISSING,NULL,Empty or missing-value marker
+25851,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+27752,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+27752,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+28119,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+28122,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+28353,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+29496,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+29609,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+29609,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+30141,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+32908,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+32908,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+32908,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+32909,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+32909,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+32909,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+34637,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34638,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34639,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34640,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34641,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34642,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34643,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34644,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34645,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34646,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34647,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34648,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34649,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34650,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34651,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34652,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34653,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34654,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34655,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34656,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34657,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34658,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34659,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34660,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34661,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34662,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34663,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34664,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34665,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34666,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34667,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34668,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34669,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34714,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34715,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34716,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34722,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+34873,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36233,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36234,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36254,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36255,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36265,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36265,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+36287,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36288,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36354,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36561,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36561,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+36562,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36563,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36564,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36567,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36570,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36571,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36572,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36573,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36574,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36575,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36576,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36577,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36578,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36579,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36580,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36581,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36582,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36583,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36584,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36585,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36592,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36772,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36777,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36778,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36926,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36926,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+36932,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36933,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36939,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36940,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36942,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36942,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+36944,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+36944,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+36968,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37065,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37082,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37083,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37084,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37085,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37086,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37087,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37088,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37088,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+37089,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37090,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37091,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37092,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37093,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37094,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37095,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37096,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37097,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37098,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37099,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37100,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37101,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37102,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37103,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37104,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37105,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37106,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37111,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37111,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+37132,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37133,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37146,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37146,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+37176,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37183,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37232,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37372,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37374,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37375,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37376,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37386,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37388,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37388,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+37388,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+37472,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37553,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37553,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+37554,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37555,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37556,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37557,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37558,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37606,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37607,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37643,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37644,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37645,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37687,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37700,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37700,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+37939,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37939,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+37940,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37940,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+37990,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37990,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+37991,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+37992,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38019,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38019,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+38020,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38020,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+38092,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38093,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38104,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38150,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38192,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38193,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38198,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38198,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+38217,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38300,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38300,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+38321,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38321,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+38385,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38436,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38436,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+38457,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38487,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38527,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+38584,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38585,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38586,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38603,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38604,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38613,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38613,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+38614,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38675,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38690,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38797,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38946,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38947,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38948,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38949,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38950,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38951,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38952,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38953,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38954,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38955,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38956,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38957,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38958,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38964,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+38964,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+39018,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39018,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+39035,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39040,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39041,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39042,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39043,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39044,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39045,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39046,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39048,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39049,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39055,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39097,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39098,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39100,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39100,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+39101,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39102,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39103,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39104,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39105,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39129,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39202,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39202,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+39245,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39246,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39251,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39252,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39556,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39556,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+39616,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39714,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39748,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39748,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+39749,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39749,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+39764,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39814,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39815,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39838,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39838,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+39872,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39872,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+39874,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39881,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+39881,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+40010,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40010,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+40013,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40013,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+40013,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+40015,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40016,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40017,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40018,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40302,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40303,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40488,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40489,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40566,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40583,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40621,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40641,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40723,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40723,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+40771,Country,MISSING,NULL,Empty or missing-value marker
+40818,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40848,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40848,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+40911,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40914,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40925,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+40925,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+41029,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41030,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41031,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41032,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41033,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41034,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41104,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41105,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41235,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41236,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41249,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41262,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41272,Country,REVIEW,TMP,Recognized historical code; check its meaning and booking date
+41294,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41302,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41308,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41310,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41310,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+41311,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41311,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+41348,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41348,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+41364,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41365,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41366,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41367,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41368,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41369,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41375,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41377,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41381,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41383,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41384,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41385,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41386,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41387,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41388,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41389,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41390,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41391,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41392,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41393,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41394,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41395,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41396,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41397,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41398,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41399,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41412,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41413,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41415,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41416,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41417,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41418,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41419,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41422,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41422,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+41423,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41424,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41425,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41426,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41427,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41428,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41429,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41430,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41431,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41432,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41433,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41434,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41435,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41436,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41437,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41445,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41446,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41448,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41449,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41450,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41454,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41461,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41462,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41583,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41583,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+41591,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41591,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+41592,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41592,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+41593,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41593,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+41822,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+41823,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42013,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42014,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42014,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+42015,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42016,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42021,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42149,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42149,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+42199,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42199,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+42205,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42205,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+42205,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+42206,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42206,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+42206,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+42207,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42207,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+42207,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+42208,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42208,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+42208,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+42218,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42218,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+42244,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42449,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42450,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42462,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42463,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42899,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42900,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42901,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42915,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42916,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42917,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42918,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42919,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42920,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42921,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42922,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42923,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42923,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+42925,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+42925,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+42936,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43037,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43105,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43105,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+43106,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43106,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+43119,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43120,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43121,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43182,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43242,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43261,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43262,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43263,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43264,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43265,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43266,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43344,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43407,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43421,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43447,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43447,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+43469,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43505,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43505,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+43520,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43520,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+43550,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43550,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+43551,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43551,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+43585,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43659,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43659,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+43751,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43751,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+43841,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43841,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+43852,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43852,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+43886,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43886,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+43937,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+43938,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44018,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44129,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44129,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44139,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44139,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+44193,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44193,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44260,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44260,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44387,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44388,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44389,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44390,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44398,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44398,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44422,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44422,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44429,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44429,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44431,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44431,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44437,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44437,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44438,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44438,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44441,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44441,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44484,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44671,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44702,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44714,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44790,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44890,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44890,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+44907,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44996,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+44996,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45342,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45342,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45372,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45372,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45373,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45373,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45374,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45374,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45431,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45431,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+45431,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45432,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45432,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+45432,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45480,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45480,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+45534,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45534,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45544,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45547,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45588,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45658,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45664,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45664,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45665,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45665,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45721,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45721,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45761,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45817,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45829,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45829,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45844,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45844,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+45872,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+45885,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45988,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+45988,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+46205,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46233,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46234,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46258,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46258,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+46376,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46393,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46638,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46642,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46643,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46756,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46789,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46802,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46803,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46817,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46851,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+46930,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47040,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47054,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47054,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+47055,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47055,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+47120,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47328,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47354,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47453,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47464,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47464,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+47486,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47578,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47579,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47640,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47640,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+47772,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47879,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47879,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+47898,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47898,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+47958,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+47958,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+48006,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48006,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+48024,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48037,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48037,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+48166,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48166,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+48212,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48252,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48268,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48268,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+48269,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48269,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+48291,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48326,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48380,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+48501,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48695,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+48902,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49037,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49037,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49038,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49038,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49039,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49039,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49040,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49040,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49041,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49041,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49042,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49042,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49043,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49043,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49044,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49044,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49045,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49045,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49046,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49046,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49047,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49047,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49048,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49048,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49049,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49049,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49050,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49050,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49051,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49051,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49052,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49052,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49053,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49053,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49054,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49054,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49055,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49055,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49056,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49056,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49057,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49057,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49058,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49058,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49059,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49059,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49060,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49060,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49061,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49061,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49062,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49062,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49204,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49204,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49210,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49210,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49244,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49293,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49293,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49295,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49295,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49300,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49300,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+49300,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49301,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49301,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+49301,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49315,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49315,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49337,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49349,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49380,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49380,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49457,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49659,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49713,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49860,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49860,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+49906,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49914,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49969,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49990,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49991,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49992,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49993,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+49994,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50155,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50157,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50199,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50199,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+50289,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50384,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50384,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+50404,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50414,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50420,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50427,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50427,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+50520,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50521,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50611,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50676,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50676,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+50817,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50849,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50871,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+50871,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+51008,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51161,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51161,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+51194,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51331,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51341,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51369,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51369,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+51369,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+51494,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51521,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51521,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+51622,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51767,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51916,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+51932,Country,REVIEW,TMP,Recognized historical code; check its meaning and booking date
+52165,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+52165,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+52219,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+52219,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+52287,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+52287,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+52288,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+52288,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+52354,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+52354,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+52372,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+52503,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+52503,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+52530,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+52530,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+52570,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+52570,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+52644,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+52755,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+52903,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+53080,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53080,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+53145,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53145,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+53198,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53198,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+53199,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53207,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53207,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+53261,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53261,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+53338,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53338,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+53349,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53566,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53575,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53694,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53694,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+53694,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+53695,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53695,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+53695,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+53769,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53769,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+53779,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+53859,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54068,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54150,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54315,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54316,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54317,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54318,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54319,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54320,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54321,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54322,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54323,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54324,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54325,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54326,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54327,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54328,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54329,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54330,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54331,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54332,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54333,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54334,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54335,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54336,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54337,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54338,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54339,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54340,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54341,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54439,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54710,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+54762,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54762,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+54818,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54818,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+54819,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+54819,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+55105,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+55105,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+55120,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+55121,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+55153,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+55153,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+55455,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+55485,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+55488,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+55488,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+55674,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+55674,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+55804,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+55847,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+55904,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+55904,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+55978,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56238,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56238,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+56246,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56247,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56248,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56249,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56308,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56528,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56540,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56540,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+56589,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+56636,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56636,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+56701,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56751,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56751,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+56752,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56752,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+56847,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+56848,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57006,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57052,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57150,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57150,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+57622,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57624,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57661,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57689,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57690,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57691,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57692,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57693,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57694,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57703,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57703,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+57952,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57979,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57986,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57986,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+57987,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+57987,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+58020,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58172,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58187,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58302,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58304,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58352,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58431,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58431,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+58433,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+58447,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58447,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+58495,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58495,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+58499,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58518,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58530,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58641,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58713,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58713,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+58714,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58714,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+58744,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58749,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58751,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58868,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58869,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58870,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58946,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+58946,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59052,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59052,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59161,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59161,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59181,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59182,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59190,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59201,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59201,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+59206,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59206,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59227,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59227,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59279,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59279,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+59280,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59280,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59294,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59294,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59431,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59431,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59437,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59437,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59506,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59506,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59545,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59545,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59549,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59549,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59593,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59676,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59715,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59715,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+59751,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59751,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+59821,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59821,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+59943,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+59943,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60080,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60214,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60214,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+60225,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60225,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60227,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60227,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60317,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60325,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60325,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60428,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60428,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+60428,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60432,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60432,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60435,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60435,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60504,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60504,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+60611,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60611,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60721,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60721,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+60721,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60726,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60726,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60784,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60784,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60898,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60898,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60906,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60906,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60907,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60907,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60916,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60916,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+60919,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+60919,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61069,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61074,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61074,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61125,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61125,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61127,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61127,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61128,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61129,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61130,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61132,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61138,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61138,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61152,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61152,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61183,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61183,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61270,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61270,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+61270,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61340,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+61342,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+61386,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61387,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61429,Country,MISSING,NULL,Empty or missing-value marker
+61453,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61454,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61459,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61505,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61531,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61565,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61565,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61582,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61599,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61599,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61735,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+61745,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61745,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+61745,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61746,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61746,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+61746,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61824,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61835,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61852,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61870,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61871,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61873,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61898,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+61915,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61946,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61946,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61949,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+61995,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61995,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+61995,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+61996,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+61996,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+61996,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62070,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62070,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62091,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62091,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62096,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62096,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62096,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62098,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62098,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62098,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62126,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62127,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62196,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62196,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62199,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62199,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62199,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62237,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62237,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62237,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62260,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62260,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62261,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62261,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62316,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62343,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62343,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62352,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62449,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62509,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62509,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62552,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62552,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62552,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62585,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62650,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62651,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62651,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62651,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62746,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62746,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62746,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62749,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62749,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62753,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62753,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+62753,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62783,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62794,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62794,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+62839,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+62839,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+63002,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63006,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63014,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63019,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63142,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63205,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63205,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+63205,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+63212,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63215,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63231,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63233,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63254,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63258,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63258,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+63258,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+63333,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63382,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63382,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+63613,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63655,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+63699,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63700,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63867,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63867,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+63868,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63868,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+63877,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63877,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+63902,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63902,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+63902,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+63946,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63971,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+63972,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64027,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64086,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+64172,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64172,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+64172,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+64258,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64258,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+64266,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64365,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64452,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64457,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+64522,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64591,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64591,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+64597,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64597,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+64614,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64725,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64725,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+64817,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64817,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+64899,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64899,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+64900,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64948,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+64948,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65033,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65047,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65047,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+65047,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65126,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65126,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+65126,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65152,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65152,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65158,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65158,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65159,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65159,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65239,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65239,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65267,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65298,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65353,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65353,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65370,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65395,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65395,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65396,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65396,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65518,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65518,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65534,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65564,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65564,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65571,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65571,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+65571,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65667,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65667,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+65667,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65669,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65669,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+65669,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65728,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65819,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65819,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+65848,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65849,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65850,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65851,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+65929,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66049,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66053,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66058,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66058,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66078,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66342,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66347,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66347,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66445,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66461,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66497,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66497,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+66497,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66502,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66502,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+66503,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+66511,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66511,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+66511,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66569,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66569,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66579,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66579,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66588,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66588,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+66588,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66647,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66647,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+66647,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66695,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66696,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66697,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66698,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66699,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66766,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66766,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66767,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66767,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66774,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+66896,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66896,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66967,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66967,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+66968,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66968,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+66968,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66974,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+66974,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+66974,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+66988,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67015,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67015,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+67050,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67095,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67095,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+67095,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+67098,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67098,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+67098,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+67235,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67397,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67451,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67451,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+67484,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67484,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+67484,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+67535,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+67617,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67617,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+67617,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+67649,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67768,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67918,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67918,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+67918,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+67920,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67920,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+67933,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67933,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+67959,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+67959,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+68041,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68041,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+68092,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68174,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68174,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+68174,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+68175,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68175,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+68175,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+68176,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68176,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+68176,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+68518,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68518,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+68519,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68519,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+68568,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68568,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+68569,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68569,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+68734,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68735,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68889,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68898,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68979,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+68979,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+69071,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+69199,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+69434,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+69434,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+69886,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+69886,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+70145,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70221,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70221,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+70221,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+70235,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70242,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70242,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+70334,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70341,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70372,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70514,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70811,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70811,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+70901,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70968,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70968,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+70968,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+70969,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70969,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+70983,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+70983,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+71343,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+71343,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+71347,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+71472,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+71472,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+71650,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+71650,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+71650,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+71651,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+71651,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+71651,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+71921,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+71921,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+71995,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72038,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72039,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72045,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72079,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72116,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72230,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72287,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72412,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72412,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+72499,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72499,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+72601,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72737,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72781,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72864,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72867,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72914,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+72914,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+73056,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73087,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73096,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73129,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73129,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+73129,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+73187,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73188,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73193,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73293,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73294,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73323,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73378,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73378,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+73548,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73612,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73871,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73871,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+73928,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73929,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+73930,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+74049,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+74252,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+74524,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+74568,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+74619,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+74619,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+74849,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+74849,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+74849,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+74852,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+74852,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+74852,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+74904,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+74970,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+75032,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+75032,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+75193,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+75249,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+75423,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+75423,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+75424,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+75424,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+75988,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+75989,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+76152,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+76192,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+76279,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+76294,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+76475,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+76773,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+76961,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+76964,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+77028,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+77028,Adults+Children+Babies,REVIEW,0 + 0 + 0,Total recorded guests is zero; investigate
+77055,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+77170,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+77642,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+77642,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+77842,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+77901,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+77970,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+77970,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+78083,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+78572,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+78572,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+78703,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+78904,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+78904,StaysInWeekendNights+StaysInWeekNights,REVIEW,0 + 0,Total recorded nights is zero; investigate
+79043,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
+79065,ADR,REVIEW,0,Zero/negative ADR: investigate; not automatically an error
