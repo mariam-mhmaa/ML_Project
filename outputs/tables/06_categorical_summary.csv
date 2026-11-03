@@ -1,0 +1,14 @@
+variable,n_unique,n_missing,mode,mode_count,mode_pct
+ArrivalDateMonth,12,0,August,8983,11.32
+Meal,4,0,BB,62305,78.54
+MarketSegment,8,0,Online TA,38748,48.84
+DistributionChannel,5,0,TA/TO,68945,86.91
+ReservedRoomType,8,0,A,62595,78.9
+AssignedRoomType,9,0,A,57007,71.86
+DepositType,3,0,No Deposit,66442,83.75
+CustomerType,4,0,Transient,59404,74.88
+ReservationStatus,3,0,Check-Out,46228,58.27
+Agent,223,8131,9,31955,40.28
+Company,207,75641,40,924,1.16
+IsCanceled,2,0,0,46228,58.27
+IsRepeatedGuest,2,0,0,77298,97.44

@@ -1,0 +1,17 @@
+variable,mean,median,std,min,max,skewness,excess_kurtosis,zero_fraction_pct,classification
+Babies,0.005,0.0,0.084,0.0,10.0,44.775,4229.924,99.53,highly skewed
+ADR,105.304,99.9,43.603,0.0,5400.0,23.162,2741.523,1.52,highly skewed
+PreviousBookingsNotCanceled,0.132,0.0,1.693,0.0,72.0,23.117,690.708,98.0,highly skewed
+PreviousCancellations,0.08,0.0,0.415,0.0,21.0,16.585,451.558,93.21,highly skewed
+DaysInWaitingList,3.227,0.0,20.871,0.0,391.0,10.305,137.53,95.66,highly skewed
+BookingChanges,0.187,0.0,0.609,0.0,21.0,7.246,118.559,87.06,highly skewed
+RequiredCarParkingSpaces,0.024,0.0,0.155,0.0,3.0,6.302,39.526,97.57,highly skewed
+Children,0.091,0.0,0.372,0.0,3.0,4.337,18.781,93.56,highly skewed
+StaysInWeekNights,2.183,2.0,1.456,0.0,41.0,2.956,32.491,6.26,highly skewed
+TotalOfSpecialRequests,0.547,0.0,0.781,0.0,5.0,1.404,1.659,60.45,highly skewed
+LeadTime,109.736,74.0,110.949,0.0,629.0,1.39,1.805,3.92,highly skewed
+StaysInWeekendNights,0.795,1.0,0.885,0.0,16.0,1.134,5.004,47.67,highly skewed
+Adults,1.851,2.0,0.509,0.0,4.0,-0.431,1.107,0.49,approximately symmetric
+ArrivalDateYear,2016.174,2016.0,0.699,2015.0,2017.0,-0.253,-0.951,0.0,approximately symmetric
+ArrivalDateWeekNumber,27.177,27.0,13.399,1.0,53.0,-0.01,-0.964,0.0,approximately symmetric
+ArrivalDateDayOfMonth,15.787,16.0,8.728,1.0,31.0,-0.007,-1.182,0.0,approximately symmetric

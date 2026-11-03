@@ -1,0 +1,17 @@
+variable,n_outliers,pct_outliers,lower_fence,upper_fence,interpretation,recommended_handling
+LeadTime,2576,3.25,-187.0,373.0,"2,576 flagged; median 74, max 629, 3.9% zeros, 0 missing",Keep; log1p transform for linear / distance-based models.
+ArrivalDateYear,0,0.0,2014.5,2018.5,"0 flagged; median 2016, max 2017, 0.0% zeros, 0 missing",Keep; no specific action.
+ArrivalDateWeekNumber,0,0.0,-14.5,69.5,"0 flagged; median 27, max 53, 0.0% zeros, 0 missing",Keep; no specific action.
+ArrivalDateDayOfMonth,0,0.0,-14.5,45.5,"0 flagged; median 16, max 31, 0.0% zeros, 0 missing",Keep; no specific action.
+StaysInWeekendNights,82,0.1,-3.0,5.0,"82 flagged; median 1, max 16, 47.7% zeros, 0 missing",Keep; tail is genuine long-stay behaviour.
+StaysInWeekNights,719,0.91,-2.0,6.0,"719 flagged; median 2, max 41, 6.3% zeros, 0 missing",Keep; consider total-nights feature + log1p.
+Adults,21075,26.57,2.0,2.0,"21,075 flagged; median 2, max 4, 0.5% zeros, 0 missing",Flag zero-guest rows; impute or exclude with a documented rule.
+Children,5106,6.44,0.0,0.0,"5,106 flagged; median 0, max 3, 93.6% zeros, 4 missing",Impute missing with 0 + indicator; keep range as-is.
+Babies,369,0.47,0.0,0.0,"369 flagged; median 0, max 10, 99.5% zeros, 0 missing",Near-constant; consider binarising (baby yes/no).
+PreviousCancellations,5389,6.79,0.0,0.0,"5,389 flagged; median 0, max 21, 93.2% zeros, 0 missing",Keep; binarise or cap at a small value for linear models.
+PreviousBookingsNotCanceled,1588,2.0,0.0,0.0,"1,588 flagged; median 0, max 72, 98.0% zeros, 0 missing",Keep; combine with IsRepeatedGuest.
+BookingChanges,10268,12.94,0.0,0.0,"10,268 flagged; median 0, max 21, 87.1% zeros, 0 missing",Keep; note it is post-creation information (leakage audit).
+DaysInWaitingList,3443,4.34,0.0,0.0,"3,443 flagged; median 0, max 391, 95.7% zeros, 0 missing",Keep; log1p or binarise (waitlisted yes/no).
+ADR,3387,4.27,9.0,196.2,"3,387 flagged; median 99.9, max 5400, 1.5% zeros, 0 missing",Cap/winsorise at a documented percentile or use a robust loss; decide explicitly on zero-ADR rows.
+RequiredCarParkingSpaces,1926,2.43,0.0,0.0,"1,926 flagged; median 0, max 3, 97.6% zeros, 0 missing",Keep; binarise (parking requested).
+TotalOfSpecialRequests,1811,2.28,-1.5,2.5,"1,811 flagged; median 0, max 5, 60.5% zeros, 0 missing",Keep as-is; no treatment needed.

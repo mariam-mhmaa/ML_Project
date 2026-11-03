@@ -1,0 +1,17 @@
+variable,mean,std,n_abs_z_gt_3,pct_abs_z_gt_3
+LeadTime,109.736,110.949,1148,1.447
+ArrivalDateYear,2016.174,0.699,0,0.0
+ArrivalDateWeekNumber,27.177,13.399,0,0.0
+ArrivalDateDayOfMonth,15.787,8.728,0,0.0
+StaysInWeekendNights,0.795,0.885,423,0.533
+StaysInWeekNights,2.183,1.456,719,0.906
+Adults,1.851,0.509,421,0.531
+Children,0.091,0.372,2083,2.626
+Babies,0.005,0.084,369,0.465
+PreviousCancellations,0.08,0.415,234,0.295
+PreviousBookingsNotCanceled,0.132,1.693,506,0.638
+BookingChanges,0.187,0.609,792,0.998
+DaysInWaitingList,3.227,20.871,1237,1.559
+ADR,105.304,43.603,536,0.676
+RequiredCarParkingSpaces,0.024,0.155,1926,2.428
+TotalOfSpecialRequests,0.547,0.781,1811,2.283

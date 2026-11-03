@@ -1,0 +1,17 @@
+variable,q1,q3,iqr,lower_fence,upper_fence,n_below,n_above,n_outliers,pct_outliers,iqr_degenerate
+LeadTime,23.0,163.0,140.0,-187.0,373.0,0,2576,2576,3.25,False
+ArrivalDateYear,2016.0,2017.0,1.0,2014.5,2018.5,0,0,0,0.0,False
+ArrivalDateWeekNumber,17.0,38.0,21.0,-14.5,69.5,0,0,0,0.0,False
+ArrivalDateDayOfMonth,8.0,23.0,15.0,-14.5,45.5,0,0,0,0.0,False
+StaysInWeekendNights,0.0,2.0,2.0,-3.0,5.0,0,82,82,0.1,False
+StaysInWeekNights,1.0,3.0,2.0,-2.0,6.0,0,719,719,0.91,False
+Adults,2.0,2.0,0.0,2.0,2.0,16269,4806,21075,26.57,True
+Children,0.0,0.0,0.0,0.0,0.0,0,5106,5106,6.44,True
+Babies,0.0,0.0,0.0,0.0,0.0,0,369,369,0.47,True
+PreviousCancellations,0.0,0.0,0.0,0.0,0.0,0,5389,5389,6.79,True
+PreviousBookingsNotCanceled,0.0,0.0,0.0,0.0,0.0,0,1588,1588,2.0,True
+BookingChanges,0.0,0.0,0.0,0.0,0.0,0,10268,10268,12.94,True
+DaysInWaitingList,0.0,0.0,0.0,0.0,0.0,0,3443,3443,4.34,True
+ADR,79.2,126.0,46.8,9.0,196.2,1316,2071,3387,4.27,False
+RequiredCarParkingSpaces,0.0,0.0,0.0,0.0,0.0,0,1926,1926,2.43,True
+TotalOfSpecialRequests,0.0,1.0,1.0,-1.5,2.5,0,1811,1811,2.28,False
