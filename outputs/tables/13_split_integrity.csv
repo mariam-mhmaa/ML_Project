@@ -1,0 +1,2 @@
+raw_rows,train_rows,test_rows,train_repeated_group_rows,test_repeated_group_rows,shared_exact_rows,raw_canceled_pct,train_canceled_pct,test_canceled_pct
+79330,63464,15866,25398,6350,0,41.727,41.728,41.724
