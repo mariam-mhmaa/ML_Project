@@ -40,29 +40,29 @@ The scripts below follow the order of our data analysis and preparation. Run the
    python src/data/statistics_plots.py
    ```
 
-5. **Create training and test files.** `src/preprocessing/split_data.py` keeps all 79,330 rows. It gives each exact-duplicate group a group ID, then holds out one of five stratified group folds for testing. This keeps each group wholly in training or test while preserving the cancellation rate. The result is 63,464 rows in `data/processed/train.csv` and 15,866 in `data/processed/test.csv` (80% / 20%). A fixed random seed makes the split reproducible. The saved values are still raw text; this step does not fill missing values or encode categories.
+5. **Preprocess the full dataset.** `src/preprocessing/preprocessing_pipeline.py` removes the 167 bookings with zero recorded guests and the one booking with ADR 5,400. It also changes three `Country` values from the historical code `TMP` to the current code `TLS`. It saves all 79,162 remaining bookings in `data/preprocessed/H2_preprocessed.csv`. The raw file is unchanged, and `outputs/data_quality/preprocessing_exclusions.csv` lists the removed raw row numbers and reasons.
+
+   ```powershell
+   python src/preprocessing/preprocessing_pipeline.py
+   ```
+
+6. **Split the preprocessed data.** `src/preprocessing/split_data.py` assigns each exact-duplicate group wholly to train or test, using one of five stratified group folds and a fixed random seed. It saves 63,329 rows in `data/preprocessed/train.csv` and 15,833 in `data/preprocessed/test.csv` (about 80% / 20%).
 
    ```powershell
    python src/preprocessing/split_data.py
    ```
 
-6. **Audit the split.** `src/preprocessing/audit_split.py` checks that every raw row was retained and no exact row appears in both files. It compares numeric summaries and category percentages between training and test. The results are saved in `outputs/tables/13_split_integrity.csv`, `14_split_numeric_comparison.csv`, and `15_split_category_comparison.csv`.
+7. **Audit the split.** `src/preprocessing/audit_split.py` checks that all preprocessed rows appear in exactly one split and that no exact row appears in both. It compares numeric values and category percentages. Reports are in `outputs/tables/13_split_integrity.csv`, `14_split_numeric_comparison.csv`, and `15_split_category_comparison.csv`.
 
    ```powershell
    python src/preprocessing/audit_split.py
    ```
 
-7. **Prepare modeling copies.** `src/preprocessing/prepare_modeling_data.py` excludes bookings with zero recorded guests and the single ADR 5,400 booking from the already split files. It writes `data/processed/train_modeling.csv` (63,328 rows), `test_modeling.csv` (15,834 rows), and `outputs/data_quality/modeling_exclusions.csv`, which lists every excluded row and its reason. The raw file and original train/test files stay intact.
+## Preprocessing decisions
 
-   ```powershell
-   python src/preprocessing/prepare_modeling_data.py
-   ```
+Here, **remove** means leave a row out of the preprocessed dataset. **Flag** means keep it for review without changing its value. `outputs/data_quality/flagged_values.csv` lists the original raw row numbers with quality flags. Its counts include rows later removed by the pipeline.
 
-## Removal and review decisions
-
-Here, **remove** means leave a row out of the modeling copies. **Flag** means keep it and list it for review; it does not mean changing a value. `outputs/data_quality/flagged_values.csv` contains row-level quality flags from the original data. The counts below show how many remain after the agreed removals.
-
-| Decision | Condition | Original rows | Rows in modeling copies | Reason |
+| Decision | Condition | Original rows | Rows after preprocessing | Reason |
 | --- | --- | ---: | ---: | --- |
 | Remove | Total guests = 0 | 167 | 0 | The actual guest count cannot be inferred; 144 are marked `Check-Out`. |
 | Remove | ADR = 5,400 | 1 | 0 | Suspected source outlier; the next highest ADR is 510. |
@@ -71,16 +71,16 @@ Here, **remove** means leave a row out of the modeling copies. **Flag** means ke
 | Flag | ADR = 0, positive nights and guests, other segment | 327 | 327 | The zero rate remains unexplained. |
 | Flag | Missing `Children` | 4 | 4 | The guest count is incomplete, not proven to be zero. |
 | Flag | Missing `Country` | 24 | 16 | Keep for later missing-value handling. |
-| Flag | Historical country code `TMP` | 3 | 3 | Review its historical meaning; do not remap automatically. |
+| Map | Historical country code `TMP` | 3 | 0 | Replace with `TLS` for Timor-Leste; all three rows stay. |
 
-The two removal rules exclude **168 distinct bookings**, leaving **79,162**. The 67 bookings with both zero guests and zero nights are removed under the zero-guest rule. The remaining zero-ADR bookings are 264 zero-night rows, 480 `Complementary` rows, and 327 rows in other market segments. These review categories are not deletion rules. Exact duplicate rows remain in their original split groups.
+The two removal rules exclude **168 distinct bookings**. The 67 bookings with both zero guests and zero nights are removed under the zero-guest rule. The remaining zero-ADR bookings are 264 zero-night rows, 480 `Complementary` rows, and 327 rows in other market segments. Exact duplicate rows are kept and grouped together when splitting.
 
 ## Split assumptions and limitations
 
-The [dataset article](https://pmc.ncbi.nlm.nih.gov/articles/PMC6297060/) says each row represents a booking and that identifying information was removed. It does not say identical rows are errors. We therefore keep them because separate bookings may have the same recorded values. Keeping each exact-duplicate group on one side of the split prevents an identical full row from appearing in both training and test files.
+The [dataset article](https://repositorio.iscte-iul.pt/bitstream/10071/16929/1/Hotelbookingdemanddatasets.pdf) says each row represents a booking and that identifying information was removed. It does not say identical rows are errors. We therefore keep them because separate bookings may have the same recorded values. Keeping each exact-duplicate group on one side of the split prevents an identical full row from appearing in both training and test files. The `TMP` to `TLS` mapping follows the [ISO country-code change notice](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/newsletter_v-5_east_timor.pdf).
 
-The split audit confirms that all rows are retained, no exact row crosses the split, and both sets have a 41.7% cancellation rate. Typical ADR values are close: the medians are 99.9 (train) and 99.5 (test), and both 95th percentiles are 175.5. Lead time, guest counts, and stay lengths are also close. The largest gap among the main market segments is `Groups`: 18.1% in train and 15.5% in test. We keep this fixed split for modeling.
+The split audit confirms that all **79,162 preprocessed rows** are retained, no exact row crosses the split, and both sets have a 41.8% cancellation rate. ADR medians are 99.25 (train) and 100 (test); both 95th percentiles are 175.5. The largest main market-segment difference is 1.6 percentage points for `Offline TA/TO`. We keep this fixed split for modeling.
 
-The extreme ADR value of 5,400 was in the original test set; it is excluded only from the modeling copy under the documented decision above. Seven rare country codes also appear only in test. Grouping by exact full rows prevents exact matches across the split; it does not establish whether two matching rows are actually the same booking.
+Grouping by exact full rows prevents exact matches across the split; it does not establish whether two matching rows are actually the same booking.
 
-No feature preprocessing pipeline or machine learning model has been implemented yet. For model selection, we plan five-fold cross-validation on the modeling training file, keeping rows with the same task-specific model inputs in one fold. The modeling test file should be used only after model selection, for final evaluation.
+The current pipeline only applies the three agreed cleaning rules. It does not yet handle missing `Children` and `Country`, resolve the remaining zero-ADR and zero-night cases, or encode and scale model features. Those decisions should be made for each modeling task, with any learned transformations fitted on training data only. No model has been implemented yet. For model selection, we plan grouped five-fold cross-validation on `train.csv`; `test.csv` is reserved for final evaluation.

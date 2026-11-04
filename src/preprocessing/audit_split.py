@@ -40,19 +40,20 @@ def numeric_summary(df, column):
 
 
 def main():
-    raw = pd.read_csv(data_folder / "raw" / "H2.csv", dtype=str, keep_default_na=False)
-    train = pd.read_csv(data_folder / "processed" / "train.csv", dtype=str,
+    full = pd.read_csv(data_folder / "preprocessed" / "H2_preprocessed.csv", dtype=str,
+                       keep_default_na=False)
+    train = pd.read_csv(data_folder / "preprocessed" / "train.csv", dtype=str,
                         keep_default_na=False)
-    test = pd.read_csv(data_folder / "processed" / "test.csv", dtype=str,
+    test = pd.read_csv(data_folder / "preprocessed" / "test.csv", dtype=str,
                        keep_default_na=False)
 
-    if not raw.columns.equals(train.columns) or not raw.columns.equals(test.columns):
-        raise ValueError("Train/test columns do not match H2.csv")
+    if not full.columns.equals(train.columns) or not full.columns.equals(test.columns):
+        raise ValueError("Train/test columns do not match H2_preprocessed.csv")
 
-    raw_counts = raw.value_counts(dropna=False).sort_index()
+    full_counts = full.value_counts(dropna=False).sort_index()
     combined_counts = pd.concat([train, test]).value_counts(dropna=False).sort_index()
-    if not raw_counts.equals(combined_counts):
-        raise ValueError("Train and test do not retain every raw row")
+    if not full_counts.equals(combined_counts):
+        raise ValueError("Train and test do not retain every preprocessed row")
 
     shared_rows = len(pd.MultiIndex.from_frame(train).intersection(
         pd.MultiIndex.from_frame(test)
@@ -61,13 +62,13 @@ def main():
         raise ValueError(f"{shared_rows} exact rows appear in both splits")
 
     summary = {
-        "raw_rows": len(raw),
+        "preprocessed_rows": len(full),
         "train_rows": len(train),
         "test_rows": len(test),
         "train_repeated_group_rows": int(train.duplicated(keep=False).sum()),
         "test_repeated_group_rows": int(test.duplicated(keep=False).sum()),
         "shared_exact_rows": shared_rows,
-        "raw_canceled_pct": round(100 * (raw["IsCanceled"] == "1").mean(), 3),
+        "preprocessed_canceled_pct": round(100 * (full["IsCanceled"] == "1").mean(), 3),
         "train_canceled_pct": round(100 * (train["IsCanceled"] == "1").mean(), 3),
         "test_canceled_pct": round(100 * (test["IsCanceled"] == "1").mean(), 3),
     }
@@ -100,7 +101,7 @@ def main():
     pd.DataFrame(category_rows).to_csv(output_folder / "15_split_category_comparison.csv",
                                        index=False)
 
-    print(f"All {len(raw):,} raw rows retained; no exact rows shared across splits.")
+    print(f"All {len(full):,} preprocessed rows retained; no exact rows shared across splits.")
     print(f"Train: {len(train):,} rows, {summary['train_canceled_pct']:.2f}% canceled")
     print(f"Test:  {len(test):,} rows, {summary['test_canceled_pct']:.2f}% canceled")
     print(f"Comparison tables saved in {output_folder}")

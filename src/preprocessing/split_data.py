@@ -1,10 +1,10 @@
-"""Split H2.csv into a training set and a test set. Requires pandas and scikit-learn.
+"""Split the preprocessed H2 data into training and test sets.
 
 Run from the project folder:
     python src/preprocessing/split_data.py
 
 Strategy: train/test split followed by cross-validation during modeling.
-- Keep all rows: identical records may be different bookings.
+- Keep all preprocessed rows: identical records may be different bookings.
 - Keep each exact-duplicate group entirely in training or testing.
 - Hold out one of five stratified group folds for testing (about 20%),
   using IsCanceled and random_state=42.
@@ -24,10 +24,10 @@ RANDOM_STATE = 42
 N_SPLITS = 5
 
 project_folder = Path(__file__).resolve().parents[2]
-csv_path = project_folder / "data" / "raw" / "H2.csv"
-output_folder = project_folder / "data" / "processed"
+csv_path = project_folder / "data" / "preprocessed" / "H2_preprocessed.csv"
+output_folder = project_folder / "data" / "preprocessed"
 
-# Read everything as text so the saved files keep the raw values exactly.
+# Read everything as text so the saved files keep preprocessed values exactly.
 df = pd.read_csv(csv_path, dtype=str, keep_default_na=False)
 groups = df.groupby(df.columns.tolist(), sort=False).ngroup()
 splitter = StratifiedGroupKFold(

@@ -1,0 +1,169 @@
+raw_record_number,reason,ADR,Adults,Children,Babies,StaysInWeekendNights,StaysInWeekNights,MarketSegment,ReservationStatus
+333,zero_guests,0,0,0,0,2,5,Groups,Check-Out
+863,zero_guests,0,0,0,0,2,0,Online TA,Check-Out
+961,zero_guests,0,0,0,0,9,20,Online TA,Check-Out
+997,zero_guests,0,0,0,0,0,4,Online TA,Check-Out
+2393,zero_guests,0,0,0,0,2,0,Groups,Canceled
+2532,zero_guests,0,0,0,0,1,4,Online TA,Check-Out
+2812,zero_guests,0,0,0,0,0,2,Groups,Check-Out
+2875,zero_guests,0,0,0,0,0,1,Direct,Check-Out
+7107,zero_guests,0,0,0,0,0,3,Online TA,No-Show
+7121,zero_guests,0,0,0,0,0,1,Complementary,Check-Out
+7385,zero_guests,56.27,0,0,0,2,4,Direct,Check-Out
+8456,ADR_5400,5400,2,0,0,0,1,Offline TA/TO,Canceled
+9205,zero_guests,0,0,0,0,2,3,Offline TA/TO,Canceled
+10642,zero_guests,50.87,0,0,0,2,4,Online TA,Check-Out
+10643,zero_guests,50.87,0,0,0,2,4,Online TA,Check-Out
+13966,zero_guests,0,0,0,0,0,4,Online TA,Check-Out
+13978,zero_guests,0,0,0,0,2,4,Offline TA/TO,Canceled
+13988,zero_guests,0,0,0,0,2,4,Offline TA/TO,Canceled
+14034,zero_guests,0,0,0,0,2,4,Offline TA/TO,Canceled
+15750,zero_guests,57.3,0,0,0,3,5,Online TA,Check-Out
+20592,zero_guests,0,0,0,0,4,11,Corporate,Canceled
+21185,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+21186,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+21190,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+22908,zero_guests,0,0,0,0,0,2,Complementary,Canceled
+23737,zero_guests,0,0,0,0,0,3,Groups,Canceled
+24723,zero_guests,0,0,0,0,0,3,Offline TA/TO,Canceled
+25848,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+25849,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+25850,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+25851,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+29609,zero_guests,0,0,0,0,2,1,Groups,Canceled
+32908,zero_guests,0,0,0,0,0,0,Online TA,Canceled
+32909,zero_guests,0,0,0,0,0,0,Online TA,Canceled
+36561,zero_guests,0,0,0,0,2,2,Offline TA/TO,Check-Out
+36926,zero_guests,0,0,0,0,2,10,Corporate,Check-Out
+36942,zero_guests,0,0,0,0,0,1,Online TA,Check-Out
+36944,zero_guests,0,0,0,0,0,1,Online TA,Check-Out
+37388,zero_guests,0,0,0,0,0,0,Direct,Check-Out
+37939,zero_guests,0,0,0,0,2,4,Groups,Check-Out
+38198,zero_guests,0,0,0,0,2,2,Groups,Check-Out
+38527,zero_guests,6,0,0,0,1,2,Corporate,Check-Out
+38613,zero_guests,0,0,0,0,0,1,Direct,Check-Out
+39018,zero_guests,0,0,0,0,2,3,Offline TA/TO,Check-Out
+39748,zero_guests,0,0,0,0,2,4,Offline TA/TO,Canceled
+39749,zero_guests,0,0,0,0,2,4,Offline TA/TO,Canceled
+40013,zero_guests,0,0,0,0,0,0,Direct,Check-Out
+41422,zero_guests,0,0,0,0,0,1,Complementary,Check-Out
+42205,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+42206,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+42207,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+42208,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+43447,zero_guests,0,0,0,0,0,1,Complementary,Check-Out
+43751,zero_guests,0,0,0,0,0,2,Direct,Check-Out
+44139,zero_guests,0,0,0,0,3,5,Online TA,Check-Out
+45431,zero_guests,0,0,0,0,0,0,Direct,Check-Out
+45432,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+45480,zero_guests,0,0,0,0,2,3,Online TA,Check-Out
+45872,zero_guests,3.38,0,0,0,2,6,Groups,Check-Out
+47958,zero_guests,0,0,0,0,14,35,Corporate,Check-Out
+48268,zero_guests,0,0,0,0,2,5,Direct,Check-Out
+48269,zero_guests,0,0,0,0,2,1,Offline TA/TO,Check-Out
+48380,zero_guests,136.46,0,0,0,2,4,Direct,Check-Out
+49300,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+49301,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+50871,zero_guests,0,0,0,0,3,7,Groups,Check-Out
+51369,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+52755,zero_guests,77.53,0,0,0,2,5,Online TA,Check-Out
+52903,zero_guests,1,0,0,0,2,0,Corporate,Check-Out
+53145,zero_guests,0,0,0,0,5,10,Online TA,Check-Out
+53261,zero_guests,0,0,0,0,0,1,Direct,Check-Out
+53338,zero_guests,0,0,0,0,0,1,Direct,Check-Out
+53694,zero_guests,0,0,0,0,0,0,Complementary,Check-Out
+53695,zero_guests,0,0,0,0,0,0,Complementary,Check-Out
+54710,zero_guests,69.5,0,0,0,2,2,Online TA,Check-Out
+54762,zero_guests,0,0,0,0,2,5,Online TA,Check-Out
+55485,zero_guests,32.85,0,0,0,0,4,Online TA,Check-Out
+56540,zero_guests,0,0,0,0,1,4,Offline TA/TO,Check-Out
+56589,zero_guests,89.2,0,0,0,3,6,Online TA,Check-Out
+56751,zero_guests,0,0,0,0,4,10,Direct,Check-Out
+57986,zero_guests,0,0,0,0,0,4,Direct,Check-Out
+57987,zero_guests,0,0,0,0,8,20,Online TA,Check-Out
+58433,zero_guests,16.92,0,0,0,4,9,Online TA,Check-Out
+59201,zero_guests,0,0,0,0,2,3,Corporate,Check-Out
+59279,zero_guests,0,0,0,0,2,3,Offline TA/TO,Check-Out
+59715,zero_guests,0,0,0,0,1,4,Direct,Check-Out
+59821,zero_guests,0,0,0,0,0,1,Offline TA/TO,Check-Out
+60214,zero_guests,0,0,0,0,4,7,Offline TA/TO,Check-Out
+60428,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+60504,zero_guests,0,0,0,0,6,16,Corporate,Check-Out
+60721,zero_guests,0,0,0,0,0,0,Groups,Check-Out
+61270,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+61340,zero_guests,165.38,0,0,0,0,2,Direct,Check-Out
+61342,zero_guests,168.3,0,0,0,1,3,Online TA,Check-Out
+61735,zero_guests,8.34,0,0,0,16,41,Online TA,Check-Out
+61745,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+61746,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+61898,zero_guests,97.4,0,0,0,1,3,Online TA,Check-Out
+61949,zero_guests,92.67,0,0,0,1,2,Online TA,Check-Out
+61995,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+61996,zero_guests,0,0,0,0,0,0,Corporate,Check-Out
+62070,zero_guests,0,0,0,0,0,1,Groups,Check-Out
+62091,zero_guests,0,0,0,0,2,3,Offline TA/TO,Check-Out
+62096,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+62098,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+62126,zero_guests,6.4,0,0,0,4,7,Online TA,Check-Out
+62199,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+62237,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+62260,zero_guests,0,0,0,0,2,8,Offline TA/TO,Check-Out
+62552,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+62651,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+62746,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+62753,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+63205,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+63258,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+63655,zero_guests,20.88,0,0,0,0,3,Offline TA/TO,Check-Out
+63902,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+64086,zero_guests,1.29,0,0,0,2,5,Direct,Check-Out
+64172,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+64457,zero_guests,27.69,0,0,0,4,10,Online TA,Check-Out
+65047,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+65126,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+65571,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+65667,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+65669,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+66497,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+66502,zero_guests,0,0,0,0,13,30,Online TA,Check-Out
+66503,zero_guests,35.81,0,0,0,5,10,Online TA,Check-Out
+66511,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+66588,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+66647,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+66774,zero_guests,86.4,0,0,0,0,3,Online TA,Check-Out
+66967,zero_guests,0,0,0,0,3,9,Offline TA/TO,Check-Out
+66968,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+66974,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+67095,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+67098,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+67451,zero_guests,0,0,0,0,3,7,Online TA,Check-Out
+67484,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+67535,zero_guests,8,0,0,0,4,7,Online TA,Check-Out
+67617,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+67918,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+67933,zero_guests,0,0,0,0,4,10,Direct,Check-Out
+68174,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+68175,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+68176,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+68979,zero_guests,0,0,0,0,8,19,Direct,Check-Out
+69886,zero_guests,0,0,0,0,2,3,Direct,Check-Out
+70221,zero_guests,0,0,0,0,0,0,Online TA,Canceled
+70242,zero_guests,0,0,0,0,2,3,Corporate,Check-Out
+70968,zero_guests,0,0,0,0,0,0,Complementary,Check-Out
+70983,zero_guests,0,0,0,0,2,6,Offline TA/TO,Check-Out
+71347,zero_guests,200,0,0,0,0,1,Offline TA/TO,Check-Out
+71472,zero_guests,0,0,0,0,0,2,Groups,Check-Out
+71650,zero_guests,0,0,0,0,0,0,Groups,Check-Out
+71651,zero_guests,0,0,0,0,0,0,Groups,Check-Out
+71921,zero_guests,0,0,0,0,0,1,Direct,Check-Out
+72412,zero_guests,0,0,0,0,2,2,Groups,Check-Out
+72499,zero_guests,0,0,0,0,0,2,Direct,Check-Out
+73129,zero_guests,0,0,0,0,0,0,Groups,Check-Out
+74524,zero_guests,90,0,0,0,1,4,Online TA,Check-Out
+74849,zero_guests,0,0,0,0,0,0,Aviation,Check-Out
+74852,zero_guests,0,0,0,0,0,0,Aviation,Check-Out
+74970,zero_guests,100.8,0,0,0,0,3,Online TA,Check-Out
+75032,zero_guests,0,0,0,0,0,1,Complementary,Check-Out
+76192,zero_guests,73.8,0,0,0,1,1,Online TA,Check-Out
+76475,zero_guests,22.86,0,0,0,2,5,Online TA,Check-Out
+77028,zero_guests,0,0,0,0,0,2,Offline TA/TO,Check-Out
