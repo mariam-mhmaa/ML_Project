@@ -1,0 +1,5 @@
+column,source_markers,replacement,replaced_rows
+Children,|?|N/A|NA|NAN|NONE|NULL,0,4
+Country,|?|N/A|NAN|NONE|NULL,Unknown,16
+Agent,NULL,NotApplicable,6417
+Company,NULL,NotApplicable,60329

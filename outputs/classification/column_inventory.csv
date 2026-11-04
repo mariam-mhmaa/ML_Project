@@ -1,0 +1,32 @@
+column,role,dtype,transformation
+LeadTime,predictor,int64,numeric passthrough
+ArrivalDateYear,predictor,int64,numeric passthrough
+ArrivalDateMonth,predictor,str,one-hot encoding
+ArrivalDateWeekNumber,predictor,int64,numeric passthrough
+ArrivalDateDayOfMonth,predictor,int64,numeric passthrough
+StaysInWeekendNights,predictor,int64,numeric passthrough
+StaysInWeekNights,predictor,int64,numeric passthrough
+Adults,predictor,int64,numeric passthrough
+Children,predictor,int64,numeric passthrough
+Babies,predictor,int64,numeric passthrough
+Meal,predictor,str,one-hot encoding
+Country,predictor,str,one-hot encoding
+MarketSegment,predictor,str,one-hot encoding
+DistributionChannel,predictor,str,one-hot encoding
+IsRepeatedGuest,predictor,int64,numeric passthrough
+PreviousCancellations,predictor,int64,numeric passthrough
+PreviousBookingsNotCanceled,predictor,int64,numeric passthrough
+ReservedRoomType,predictor,str,one-hot encoding
+Agent,predictor,str,one-hot encoding
+Company,predictor,str,one-hot encoding
+CustomerType,predictor,str,one-hot encoding
+RequiredCarParkingSpaces,predictor,int64,numeric passthrough
+TotalOfSpecialRequests,predictor,int64,numeric passthrough
+IsCanceled,target,int64,numeric passthrough
+ReservationStatus,excluded predictor,not included,Reveals the eventual outcome
+ReservationStatusDate,excluded predictor,not included,Outcome-related timing information
+AssignedRoomType,excluded predictor,not included,Assignment may occur after booking creation
+BookingChanges,excluded predictor,not included,Cumulative changes after creation
+DaysInWaitingList,excluded predictor,not included,Completed waiting duration may be unavailable at creation
+DepositType,excluded predictor,not included,Transaction-derived category with uncertain booking-time availability
+ADR,excluded predictor,not included,Transaction-derived rate with uncertain booking-time availability

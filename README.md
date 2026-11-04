@@ -58,6 +58,15 @@ The scripts below follow the order of our data analysis and preparation. Run the
    python src/preprocessing/audit_split.py
    ```
 
+8. **Prepare classification training data (Milestone 1 baseline).** `src/preprocessing/classification/prepare_classification_data.py` builds a cleaned training dataset for cancellation classification from `data/preprocessed/train.csv`, with booking-time-oriented feature exclusions and fixed missing-value rules. `src/classification/audit_training_data.py` writes focused audit tables to `outputs/classification/`.
+
+   ```powershell
+   python src/preprocessing/classification/prepare_classification_data.py
+   python src/classification/audit_training_data.py
+   ```
+
+   Details and assumptions are documented in `docs/classification_milestone1.md`.
+
 ## Preprocessing decisions
 
 Here, **remove** means leave a row out of the preprocessed dataset. **Flag** means keep it for review without changing its value. `outputs/data_quality/flagged_values.csv` lists the original raw row numbers with quality flags. Its counts include rows later removed by the pipeline.

@@ -1,0 +1,16 @@
+column,dtype
+LeadTime,int64
+ArrivalDateYear,int64
+ArrivalDateWeekNumber,int64
+ArrivalDateDayOfMonth,int64
+StaysInWeekendNights,int64
+StaysInWeekNights,int64
+Adults,int64
+Children,int64
+Babies,int64
+IsRepeatedGuest,int64
+PreviousCancellations,int64
+PreviousBookingsNotCanceled,int64
+RequiredCarParkingSpaces,int64
+TotalOfSpecialRequests,int64
+IsCanceled,int64

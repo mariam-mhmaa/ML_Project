@@ -1,0 +1,2 @@
+rows,columns,predictor_columns,target_column,canceled_rows,not_canceled_rows,canceled_pct,repeated_selected_input_rows,repeated_selected_input_groups,conflicting_label_groups
+63329,24,23,IsCanceled,26462,36867,41.785,27194,5005,201

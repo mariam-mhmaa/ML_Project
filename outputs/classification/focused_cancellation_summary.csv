@@ -1,0 +1,36 @@
+feature,category,sample_count,canceled_pct
+ArrivalDateMonth,August,7212,39.018
+ArrivalDateMonth,May,6569,44.482
+ArrivalDateMonth,July,6521,42.386
+ArrivalDateMonth,June,6327,45.582
+ArrivalDateMonth,April,6048,46.726
+ArrivalDateMonth,September,5856,40.847
+ArrivalDateMonth,October,5833,42.225
+ArrivalDateMonth,March,5209,38.165
+ArrivalDateMonth,February,4109,39.353
+ArrivalDateMonth,December,3345,42.511
+ArrivalDateMonth,November,3253,34.922
+ArrivalDateMonth,January,3047,40.499
+Meal,BB,49930,42.896
+Meal,SC,8425,37.424
+Meal,HB,4930,37.647
+Meal,FB,44,79.545
+MarketSegment,Online TA,30966,37.541
+MarketSegment,Offline TA/TO,13170,42.263
+MarketSegment,Groups,11337,68.916
+MarketSegment,Direct,4855,17.034
+MarketSegment,Corporate,2396,22.663
+MarketSegment,Complementary,414,10.628
+MarketSegment,Aviation,189,22.222
+MarketSegment,Undefined,2,100.0
+DistributionChannel,TA/TO,55119,45.101
+DistributionChannel,Direct,5383,18.038
+DistributionChannel,Corporate,2676,22.459
+DistributionChannel,GDS,147,18.367
+DistributionChannel,Undefined,4,100.0
+CustomerType,Transient,47546,45.817
+CustomerType,Transient-Party,13719,27.371
+CustomerType,Contract,1841,48.941
+CustomerType,Group,223,9.865
+IsRepeatedGuest,0,61838,42.306
+IsRepeatedGuest,1,1491,20.188

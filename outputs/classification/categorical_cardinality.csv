@@ -1,0 +1,10 @@
+column,n_unique,top_category,top_category_count
+ArrivalDateMonth,12,August,7212
+Meal,4,BB,49930
+Country,154,PRT,24703
+MarketSegment,8,Online TA,30966
+DistributionChannel,5,TA/TO,55119
+ReservedRoomType,7,A,50001
+Agent,216,9,25561
+Company,181,NotApplicable,60329
+CustomerType,4,Transient,47546

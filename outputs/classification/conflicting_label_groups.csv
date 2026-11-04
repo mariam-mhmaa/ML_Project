@@ -1,0 +1,202 @@
+LeadTime,ArrivalDateYear,ArrivalDateMonth,ArrivalDateWeekNumber,ArrivalDateDayOfMonth,StaysInWeekendNights,StaysInWeekNights,Adults,Children,Babies,Meal,Country,MarketSegment,DistributionChannel,IsRepeatedGuest,PreviousCancellations,PreviousBookingsNotCanceled,ReservedRoomType,Agent,Company,CustomerType,RequiredCarParkingSpaces,TotalOfSpecialRequests,group_rows,distinct_target_labels
+43,2015,July,27,3,0,2,2,0,0,HB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,9,2
+12,2015,July,29,18,2,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,26,2
+20,2015,July,30,22,0,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,10,2
+110,2015,July,30,25,2,1,2,0,0,HB,ITA,Offline TA/TO,TA/TO,0,0,0,A,17,NotApplicable,Transient-Party,0,0,22,2
+25,2015,July,31,27,1,1,3,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,2,2
+117,2015,August,31,1,2,1,2,0,0,HB,ITA,Offline TA/TO,TA/TO,0,0,0,A,17,NotApplicable,Transient-Party,0,0,19,2
+124,2015,August,32,8,2,1,2,0,0,HB,ITA,Offline TA/TO,TA/TO,0,0,0,A,17,NotApplicable,Transient-Party,0,0,23,2
+39,2015,August,33,10,1,1,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,13,2
+2,2015,August,33,10,1,1,2,0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,2,2
+0,2015,August,33,12,0,1,2,0,0,BB,FRA,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient,0,0,2,2
+39,2015,August,33,14,0,2,2,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,6,NotApplicable,Transient-Party,0,0,87,2
+2,2015,August,33,15,2,1,1,0,0,HB,ITA,Offline TA/TO,TA/TO,0,0,0,A,17,NotApplicable,Transient-Party,0,0,2,2
+0,2015,August,34,17,1,0,1,0,0,BB,PRT,Direct,Direct,0,0,0,A,NotApplicable,NotApplicable,Transient,0,0,2,2
+138,2015,August,34,22,2,1,2,0,0,HB,ITA,Offline TA/TO,TA/TO,0,0,0,A,17,NotApplicable,Transient-Party,0,0,19,2
+44,2015,August,34,22,2,1,2,0,0,HB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,4,2
+53,2015,August,35,24,1,1,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,4,2
+50,2015,August,35,25,0,4,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,4,2
+55,2015,August,35,26,0,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,4,2
+63,2015,September,36,4,0,2,2,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,21,NotApplicable,Transient-Party,0,0,15,2
+61,2015,September,36,5,2,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,20,2
+3,2015,September,36,5,2,2,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,3,2
+55,2015,September,37,6,2,0,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,18,2
+1,2015,September,37,6,2,0,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,6,2
+1,2015,September,37,8,0,2,2,0,0,BB,PRT,Direct,Direct,0,0,0,A,NotApplicable,NotApplicable,Transient,0,0,2,2
+69,2015,September,37,9,0,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,25,2
+86,2015,September,37,9,0,2,2,0,0,BB,FRA,Corporate,Corporate,0,0,0,A,NotApplicable,68,Transient-Party,0,0,17,2
+168,2015,September,37,11,0,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,30,2
+68,2015,September,37,12,2,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,20,2
+76,2015,September,38,16,0,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,3,2
+162,2015,September,38,17,0,3,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,3,NotApplicable,Transient-Party,0,0,2,2
+162,2015,September,38,17,0,3,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,3,NotApplicable,Transient-Party,0,0,2,2
+72,2015,September,38,18,0,1,2,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,6,NotApplicable,Transient-Party,0,0,18,2
+74,2015,September,38,18,0,2,1,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,6,NotApplicable,Transient-Party,0,0,19,2
+74,2015,September,38,18,0,2,2,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,6,NotApplicable,Transient-Party,0,0,112,2
+75,2015,September,38,19,2,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,18,2
+60,2015,September,39,21,1,1,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,20,NotApplicable,Transient-Party,0,0,15,2
+83,2015,September,39,23,0,2,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,6,2
+83,2015,September,39,23,0,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,2,2
+192,2015,September,39,25,2,3,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,6,NotApplicable,Transient-Party,0,0,16,2
+68,2015,September,40,29,0,2,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,20,NotApplicable,Transient-Party,0,0,6,2
+83,2015,September,40,30,0,1,2,0,0,HB,ITA,Offline TA/TO,TA/TO,0,0,0,A,26,NotApplicable,Transient-Party,0,0,8,2
+164,2015,October,40,2,0,2,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,19,NotApplicable,Transient-Party,0,0,58,2
+198,2015,October,40,3,1,1,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,5,2
+97,2015,October,41,7,0,2,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,9,2
+66,2015,October,41,9,1,2,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,21,NotApplicable,Transient-Party,0,0,22,2
+79,2015,October,41,10,1,1,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,3,2
+79,2015,October,41,10,1,1,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,4,2
+102,2015,October,42,16,0,2,1,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,6,NotApplicable,Transient-Party,0,0,3,2
+100,2015,October,44,31,1,1,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,4,2
+67,2015,November,46,13,0,1,2,0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Contract,0,2,2,2
+140,2015,November,47,18,0,3,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,29,NotApplicable,Transient-Party,0,0,15,2
+98,2015,November,48,23,1,2,1,0,0,BB,FRA,Groups,TA/TO,0,0,0,A,37,NotApplicable,Transient-Party,0,0,19,2
+98,2015,November,48,23,1,2,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,37,NotApplicable,Transient-Party,0,0,16,2
+98,2015,November,48,23,1,3,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,37,NotApplicable,Transient-Party,0,0,3,2
+118,2015,December,53,28,1,4,2,0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,8,NotApplicable,Transient,0,2,2,2
+146,2015,December,53,29,0,3,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,21,NotApplicable,Transient-Party,0,0,4,2
+160,2015,December,53,30,0,3,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,3,NotApplicable,Transient-Party,0,0,9,2
+151,2016,January,4,19,0,2,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,19,NotApplicable,Transient-Party,0,0,8,2
+151,2016,January,4,19,0,3,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,19,NotApplicable,Transient-Party,0,0,4,2
+0,2016,January,4,21,0,1,2,0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,2,2
+58,2016,January,5,27,0,3,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,87,NotApplicable,Transient-Party,0,0,4,2
+59,2016,January,5,28,0,2,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,87,NotApplicable,Transient-Party,0,0,2,2
+31,2016,February,6,4,0,2,1,0,0,BB,PRT,Corporate,Corporate,0,0,0,A,NotApplicable,174,Transient-Party,0,0,4,2
+99,2016,February,8,19,0,1,1,0,0,BB,PRT,Corporate,TA/TO,0,0,0,A,NotApplicable,67,Transient-Party,0,0,27,2
+8,2016,February,8,19,0,1,1,0,0,BB,PRT,Corporate,TA/TO,0,0,0,A,NotApplicable,67,Transient-Party,0,0,8,2
+6,2016,February,9,22,1,2,1,0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,3,2
+115,2016,February,9,27,2,2,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,134,NotApplicable,Transient-Party,0,0,13,2
+115,2016,February,9,27,2,3,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,134,NotApplicable,Transient-Party,0,0,4,2
+116,2016,February,10,28,2,1,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,134,NotApplicable,Transient-Party,0,0,30,2
+116,2016,February,10,28,2,1,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,134,NotApplicable,Transient-Party,0,0,5,2
+116,2016,February,10,28,2,2,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,134,NotApplicable,Transient-Party,0,0,5,2
+5,2016,March,10,1,0,3,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,2,2
+0,2016,March,10,2,0,1,1,0,0,BB,PRT,Direct,Direct,0,0,0,A,NotApplicable,NotApplicable,Transient,0,0,2,2
+9,2016,March,10,2,0,2,1,0,0,BB,PRT,Corporate,Corporate,0,0,0,A,210,NotApplicable,Transient-Party,0,0,3,2
+8,2016,March,11,9,0,3,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,NotApplicable,NotApplicable,Transient-Party,0,0,3,2
+115,2016,March,12,18,0,2,2,0,0,HB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,11,2
+5,2016,March,12,19,2,1,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,5,2
+122,2016,March,14,27,2,1,2,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,26,NotApplicable,Transient-Party,0,1,9,2
+55,2016,April,15,6,0,1,1,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,56,NotApplicable,Transient-Party,0,0,3,2
+55,2016,April,15,6,0,1,2,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,56,NotApplicable,Transient-Party,0,0,17,2
+268,2016,April,15,8,2,3,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,21,NotApplicable,Transient-Party,0,0,8,2
+8,2016,April,16,14,0,3,2,0,0,SC,ESP,Direct,Direct,0,0,0,A,14,NotApplicable,Transient,0,1,3,2
+88,2016,April,16,14,1,3,2,0,0,BB,ITA,Direct,Direct,0,0,0,A,14,NotApplicable,Transient-Party,0,0,2,2
+122,2016,April,16,15,0,2,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,151,NotApplicable,Transient-Party,0,0,25,2
+270,2016,April,17,20,0,4,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,21,NotApplicable,Transient-Party,0,0,28,2
+101,2016,April,18,26,0,1,2,0,0,HB,PRT,Groups,TA/TO,0,0,0,A,35,NotApplicable,Transient-Party,0,0,18,2
+88,2016,May,19,3,0,3,1,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,3,NotApplicable,Transient-Party,0,0,7,2
+103,2016,May,19,4,0,3,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,154,NotApplicable,Transient-Party,0,0,5,2
+127,2016,May,19,7,2,1,2,0,0,BB,GBR,Direct,Direct,0,0,0,A,14,NotApplicable,Transient-Party,0,0,3,2
+0,2016,May,20,9,1,0,2,0,0,SC,ITA,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,5,2
+37,2016,May,20,13,0,1,1,0,0,SC,POL,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,5,2
+64,2016,May,21,17,0,2,1,0,0,BB,PRT,Corporate,TA/TO,0,0,0,A,NotApplicable,218,Transient-Party,0,0,2,2
+28,2016,May,21,19,0,2,2,0,0,BB,PRT,Corporate,Corporate,0,0,0,A,NotApplicable,174,Transient-Party,0,0,10,2
+198,2016,May,21,20,0,1,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,30,2
+8,2016,May,22,25,0,1,1,0,0,SC,TUR,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,3,2
+316,2016,May,22,26,0,3,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,30,NotApplicable,Transient-Party,0,0,39,2
+55,2016,May,23,29,2,1,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,NotApplicable,NotApplicable,Transient-Party,0,0,3,2
+112,2016,June,23,2,0,2,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,3,NotApplicable,Transient-Party,0,0,2,2
+112,2016,June,23,2,0,3,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,192,NotApplicable,Transient-Party,0,1,2,2
+141,2016,June,23,3,1,2,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,3,NotApplicable,Transient-Party,0,0,3,2
+107,2016,June,24,10,0,2,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,187,NotApplicable,Transient-Party,0,1,10,2
+44,2016,June,25,18,1,1,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,D,6,NotApplicable,Transient,0,0,3,2
+55,2016,July,28,7,0,1,1,0,0,BB,PRT,Corporate,Corporate,0,0,0,A,NotApplicable,219,Transient-Party,0,0,12,2
+193,2016,July,29,13,2,7,2,0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,2,2
+292,2016,July,30,21,0,2,2,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,6,NotApplicable,Transient-Party,0,0,8,2
+14,2016,July,30,21,0,2,2,0,0,BB,PRT,Corporate,Corporate,0,0,0,A,NotApplicable,174,Transient-Party,0,0,7,2
+193,2016,August,35,26,2,2,2,0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,2,2
+40,2016,September,38,13,0,4,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,86,NotApplicable,Transient-Party,0,0,2,2
+159,2016,September,39,19,1,2,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,240,NotApplicable,Transient-Party,0,0,2,2
+0,2016,September,39,22,0,1,2,0,0,BB,PRT,Direct,Direct,0,0,0,A,NotApplicable,NotApplicable,Transient,0,0,2,2
+39,2016,September,40,25,1,0,1,0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,10,NotApplicable,Transient,0,0,2,2
+130,2016,September,40,29,0,3,2,0,0,BB,NLD,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,2,13,2
+221,2016,September,40,29,0,3,1,0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient-Party,0,2,3,2
+91,2016,September,40,30,1,2,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,3,NotApplicable,Transient-Party,0,0,2,2
+261,2016,October,40,1,1,1,2,0,0,HB,PRT,Groups,TA/TO,0,0,0,A,1,NotApplicable,Transient-Party,0,0,5,2
+180,2016,October,42,10,1,0,1,0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient-Party,0,1,4,2
+181,2016,October,42,11,0,2,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,234,NotApplicable,Transient-Party,0,0,8,2
+105,2016,October,42,12,0,3,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,132,NotApplicable,Transient-Party,0,0,6,2
+237,2016,October,42,13,1,3,3,0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,0,2,2
+53,2016,October,42,14,0,1,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,77,NotApplicable,Transient-Party,0,0,11,2
+252,2016,October,42,15,2,1,2,0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient-Party,0,0,2,2
+4,2016,October,43,17,1,4,2,0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,2,2
+57,2016,October,43,17,1,3,3,0,0,BB,CHE,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,1,2,2
+88,2016,October,43,20,0,3,2,0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,1,3,2
+12,2016,October,44,25,0,3,1,0,0,BB,BIH,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,2,3,2
+28,2016,November,45,2,0,1,1,0,0,SC,POL,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,6,2
+53,2016,November,45,4,0,2,2,0,0,SC,GBR,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,4,2
+3,2016,November,46,10,0,1,1,0,0,BB,PRT,Aviation,Corporate,0,0,0,D,NotApplicable,153,Transient-Party,0,0,2,2
+32,2016,November,46,11,0,2,2,0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,2,2
+175,2016,November,46,12,2,2,2,0,0,BB,POL,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,2,2,2
+64,2016,November,47,18,1,2,2,1,0,BB,ITA,Online TA,TA/TO,0,0,0,F,9,NotApplicable,Transient,0,1,2,2
+308,2016,November,48,23,0,3,2,0,0,BB,NOR,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient-Party,0,2,4,2
+308,2016,November,48,23,0,3,1,0,0,BB,NOR,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient-Party,0,2,3,2
+33,2016,November,48,26,0,1,2,0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,3,2
+17,2016,December,50,9,0,1,1,0,0,BB,PRT,Corporate,Corporate,0,0,0,A,NotApplicable,40,Transient,0,0,4,2
+45,2016,December,53,25,2,1,2,0,0,BB,AUT,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,2,2
+41,2016,December,53,27,1,5,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,220,NotApplicable,Transient-Party,0,0,2,2
+207,2016,December,53,30,1,2,2,0,0,BB,FRA,Offline TA/TO,TA/TO,0,0,0,A,104,NotApplicable,Transient,0,0,7,2
+207,2016,December,53,30,1,2,2,0,0,BB,FRA,Offline TA/TO,TA/TO,0,0,0,A,104,NotApplicable,Transient-Party,0,0,5,2
+46,2017,January,1,1,2,0,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,NotApplicable,NotApplicable,Transient-Party,0,0,22,2
+306,2017,January,1,2,1,3,2,0,0,SC,ITA,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient-Party,0,0,6,2
+306,2017,January,1,2,1,3,2,1,0,BB,ITA,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient-Party,0,0,2,2
+65,2017,January,2,12,0,2,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,NotApplicable,366,Transient-Party,0,0,3,2
+58,2017,January,2,13,0,2,2,0,0,SC,ESP,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,2,2
+29,2017,January,3,18,0,3,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,171,NotApplicable,Transient-Party,0,0,6,2
+43,2017,January,4,24,0,1,1,0,0,BB,ITA,Online TA,GDS,0,0,0,A,195,NotApplicable,Transient,0,0,2,2
+1,2017,February,5,3,0,1,1,0,0,SC,PRT,Direct,Direct,0,0,0,A,14,NotApplicable,Transient,0,0,2,2
+48,2017,February,8,22,0,2,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,NotApplicable,NotApplicable,Transient-Party,0,1,3,2
+134,2017,February,8,25,0,1,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,30,NotApplicable,Transient-Party,0,0,113,2
+17,2017,February,9,26,2,1,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,D,30,NotApplicable,Transient-Party,0,0,13,2
+16,2017,March,9,2,2,3,2,0,0,BB,TUR,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,2,2
+110,2017,March,11,18,1,1,2,0,0,BB,USA,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,2,2,2
+0,2017,April,14,3,1,0,2,0,0,BB,PRT,Direct,Direct,0,0,0,A,NotApplicable,NotApplicable,Transient,0,0,2,2
+38,2017,April,14,3,1,1,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,37,NotApplicable,Transient-Party,0,0,3,2
+1,2017,April,14,5,0,1,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,D,103,NotApplicable,Transient,0,0,2,2
+124,2017,April,14,8,1,1,2,0,0,SC,GBR,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,11,2
+173,2017,April,16,21,0,2,2,0,0,BB,GBR,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,2,2,2
+194,2017,April,16,21,2,3,2,0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,2,5,2
+170,2017,April,17,27,0,3,2,0,0,BB,DEU,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,0,2,2
+161,2017,April,17,28,1,2,3,0,0,BB,IRL,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,0,5,2
+17,2017,April,17,28,1,2,2,0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,1,4,2
+206,2017,May,18,1,1,2,2,0,0,BB,BEL,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,3,2
+68,2017,May,20,14,2,1,1,0,0,BB,PRT,Groups,Corporate,0,0,0,A,NotApplicable,169,Transient-Party,0,0,7,2
+27,2017,May,20,17,0,1,1,0,0,BB,ESP,Corporate,Corporate,0,0,0,D,NotApplicable,150,Transient,0,1,3,2
+395,2017,May,20,17,0,3,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,229,NotApplicable,Transient-Party,0,0,5,2
+75,2017,May,20,20,2,1,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,229,NotApplicable,Transient-Party,0,0,2,2
+20,2017,May,21,24,0,1,2,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,87,NotApplicable,Transient-Party,0,0,11,2
+189,2017,May,21,24,1,4,2,0,0,BB,FIN,Direct,Direct,0,0,0,D,14,NotApplicable,Transient,0,0,2,2
+144,2017,June,22,1,0,3,2,0,0,BB,IRL,Direct,Direct,0,0,0,A,14,NotApplicable,Transient,0,2,3,2
+227,2017,June,22,1,0,3,3,0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,1,2,2
+35,2017,June,23,7,0,2,2,0,0,HB,GBR,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,2,2
+175,2017,June,23,9,0,2,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,3,NotApplicable,Transient-Party,0,0,3,2
+218,2017,June,24,15,0,3,2,0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,1,7,2
+364,2017,June,24,16,0,1,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,21,NotApplicable,Transient-Party,0,0,3,2
+169,2017,June,24,16,2,2,2,0,0,BB,DEU,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,0,2,2
+216,2017,June,25,20,0,5,1,0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,2,2
+263,2017,June,25,23,2,2,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,37,NotApplicable,Transient-Party,0,1,4,2
+396,2017,June,26,25,2,0,2,0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,A,6,NotApplicable,Transient-Party,0,1,13,2
+25,2017,June,26,27,0,1,2,0,0,BB,PRT,Corporate,Corporate,0,0,0,A,NotApplicable,280,Transient-Party,0,0,7,2
+462,2017,July,26,1,2,1,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,229,NotApplicable,Transient-Party,0,0,2,2
+220,2017,July,26,1,2,2,2,2,0,BB,BEL,Direct,Direct,0,0,0,F,14,NotApplicable,Transient,0,0,2,2
+10,2017,July,27,6,0,1,1,0,0,BB,PRT,Corporate,Corporate,0,0,0,A,219,NotApplicable,Transient-Party,0,0,12,2
+277,2017,July,28,13,0,3,2,0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,1,3,2
+171,2017,July,30,26,0,3,2,0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,2,2
+169,2017,July,30,26,0,3,2,1,0,BB,DEU,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,0,2,2
+80,2017,July,30,29,0,1,2,0,0,BB,PRT,Direct,Direct,0,0,0,A,14,NotApplicable,Transient,0,1,3,2
+2,2017,August,31,3,0,1,2,0,0,HB,PRT,Groups,TA/TO,0,0,0,A,509,NotApplicable,Transient-Party,0,0,5,2
+300,2017,August,31,4,1,2,3,0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,83,NotApplicable,Transient,0,2,3,2
+479,2017,August,32,9,0,3,2,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,229,NotApplicable,Transient-Party,0,1,3,2
+0,2017,August,32,10,0,1,2,0,0,BB,PRT,Direct,Direct,0,0,0,A,NotApplicable,NotApplicable,Transient,0,0,2,2
+54,2017,August,32,11,2,2,3,0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,9,NotApplicable,Transient,0,1,2,2
+504,2017,August,32,12,2,1,1,0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,229,NotApplicable,Transient-Party,0,0,2,2
+0,2017,August,33,16,0,1,2,0,0,BB,PRT,Direct,Direct,0,0,0,A,NotApplicable,NotApplicable,Transient,0,0,2,2
+141,2017,August,34,23,0,2,2,0,0,BB,USA,Direct,Direct,0,0,0,D,14,NotApplicable,Transient,0,2,4,2
+34,2017,August,35,27,1,0,2,0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,2,2
+213,2017,August,35,28,1,3,1,0,0,HB,PRT,Groups,TA/TO,0,0,0,A,19,NotApplicable,Transient-Party,0,0,57,2
+43,2017,August,35,29,0,4,2,0,0,SC,GBR,Online TA,TA/TO,0,0,0,A,9,NotApplicable,Transient,0,1,2,2
+0,2015,October,41,7,0,1,1,0,0,BB,PRT,Corporate,Corporate,1,1,3,A,NotApplicable,40,Transient,0,0,2,2
+8,2015,October,41,6,0,1,1,0,0,BB,PRT,Complementary,Direct,0,0,0,A,NotApplicable,45,Transient,0,0,2,2
+22,2015,November,47,17,0,1,1,0,0,BB,PRT,Corporate,Corporate,0,0,0,A,NotApplicable,127,Transient-Party,0,0,2,2
+61,2015,November,48,23,1,3,1,0,0,BB,PRT,Groups,TA/TO,0,0,0,A,37,NotApplicable,Transient-Party,0,0,2,2
