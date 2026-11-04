@@ -38,8 +38,11 @@ def main():
     ])
 
     clean = data.loc[~remove].copy()
-    old_code = clean["Country"].str.strip().eq("TMP")
-    clean.loc[old_code, "Country"] = "TLS"
+    country = clean["Country"].str.strip()
+    tmp = country.eq("TMP")
+    cn = country.eq("CN")
+    clean.loc[tmp, "Country"] = "TLS"
+    clean.loc[cn, "Country"] = "CHN"
 
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     EXCLUSIONS.parent.mkdir(parents=True, exist_ok=True)
@@ -48,7 +51,8 @@ def main():
 
     print(f"Removed {int(zero_guests.sum())} zero-guest rows and "
           f"{int(adr_5400.sum())} ADR-5400 row; kept {len(clean):,} rows.")
-    print(f"Changed {int(old_code.sum())} Country values from TMP to TLS.")
+    print(f"Changed {int(tmp.sum())} Country values from TMP to TLS and "
+          f"{int(cn.sum())} from CN to CHN.")
     print(f"Preprocessed data: {OUTPUT}")
     print(f"Excluded rows: {EXCLUSIONS}")
 

@@ -40,7 +40,7 @@ The scripts below follow the order of our data analysis and preparation. Run the
    python src/data/statistics_plots.py
    ```
 
-5. **Preprocess the full dataset.** `src/preprocessing/preprocessing_pipeline.py` removes the 167 bookings with zero recorded guests and the one booking with ADR 5,400. It also changes three `Country` values from the historical code `TMP` to the current code `TLS`. It saves all 79,162 remaining bookings in `data/preprocessed/H2_preprocessed.csv`. The raw file is unchanged, and `outputs/data_quality/preprocessing_exclusions.csv` lists the removed raw row numbers and reasons.
+5. **Preprocess the full dataset.** `src/preprocessing/preprocessing_pipeline.py` removes the 167 bookings with zero recorded guests and the one booking with ADR 5,400. It standardizes `Country` by changing three `TMP` values to `TLS` and 569 `CN` values to `CHN`. It saves all 79,162 remaining bookings in `data/preprocessed/H2_preprocessed.csv`. The raw file is unchanged, and `outputs/data_quality/preprocessing_exclusions.csv` lists the removed raw row numbers and reasons.
 
    ```powershell
    python src/preprocessing/preprocessing_pipeline.py
@@ -70,17 +70,18 @@ Here, **remove** means leave a row out of the preprocessed dataset. **Flag** mea
 | Flag | ADR = 0, positive nights and guests, `Complementary` | 480 | 480 | A free booking is plausible, but not confirmed for each row. |
 | Flag | ADR = 0, positive nights and guests, other segment | 327 | 327 | The zero rate remains unexplained. |
 | Flag | Missing `Children` | 4 | 4 | The guest count is incomplete, not proven to be zero. |
-| Flag | Missing `Country` | 24 | 16 | Keep for later missing-value handling. |
+| Flag | Missing `Country` | 24 | 16 | Eight also had zero guests and were removed; handle the remaining missing values later. |
 | Map | Historical country code `TMP` | 3 | 0 | Replace with `TLS` for Timor-Leste; all three rows stay. |
+| Map | Two-letter country code `CN` | 569 | 0 | Replace with `CHN` so all 1,434 China bookings share one code. |
 
 The two removal rules exclude **168 distinct bookings**. The 67 bookings with both zero guests and zero nights are removed under the zero-guest rule. The remaining zero-ADR bookings are 264 zero-night rows, 480 `Complementary` rows, and 327 rows in other market segments. Exact duplicate rows are kept and grouped together when splitting.
 
 ## Split assumptions and limitations
 
-The [dataset article](https://repositorio.iscte-iul.pt/bitstream/10071/16929/1/Hotelbookingdemanddatasets.pdf) says each row represents a booking and that identifying information was removed. It does not say identical rows are errors. We therefore keep them because separate bookings may have the same recorded values. Keeping each exact-duplicate group on one side of the split prevents an identical full row from appearing in both training and test files. The `TMP` to `TLS` mapping follows the [ISO country-code change notice](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/newsletter_v-5_east_timor.pdf).
+The [dataset article](https://repositorio.iscte-iul.pt/bitstream/10071/16929/1/Hotelbookingdemanddatasets.pdf) says each row represents a booking and that identifying information was removed. It does not say identical rows are errors. We therefore keep them because separate bookings may have the same recorded values. Keeping each exact-duplicate group on one side of the split prevents an identical full row from appearing in both training and test files. The `TMP` to `TLS` mapping follows the [ISO country-code change notice](https://www.iso.org/files/live/sites/isoorg/files/archive/pdf/en/newsletter_v-5_east_timor.pdf). The [UN country-code table](https://unstats.un.org/unsd/methodology/m49/overview/) lists `CN` and `CHN` as the two-letter and three-letter codes for China.
 
 The split audit confirms that all **79,162 preprocessed rows** are retained, no exact row crosses the split, and both sets have a 41.8% cancellation rate. ADR medians are 99.25 (train) and 100 (test); both 95th percentiles are 175.5. The largest main market-segment difference is 1.6 percentage points for `Offline TA/TO`. We keep this fixed split for modeling.
 
 Grouping by exact full rows prevents exact matches across the split; it does not establish whether two matching rows are actually the same booking.
 
-The current pipeline only applies the three agreed cleaning rules. It does not yet handle missing `Children` and `Country`, resolve the remaining zero-ADR and zero-night cases, or encode and scale model features. Those decisions should be made for each modeling task, with any learned transformations fitted on training data only. No model has been implemented yet. For model selection, we plan grouped five-fold cross-validation on `train.csv`; `test.csv` is reserved for final evaluation.
+The current pipeline only applies the agreed removal and country-code rules. It does not yet handle missing `Children` and `Country`, resolve the remaining zero-ADR and zero-night cases, or encode and scale model features. Those decisions should be made for each modeling task, with any learned transformations fitted on training data only. No model has been implemented yet. For model selection, we plan grouped five-fold cross-validation on `train.csv`; `test.csv` is reserved for final evaluation.
