@@ -28,7 +28,7 @@ NUMERIC_COLS = [
     "ADR", "RequiredCarParkingSpaces", "TotalOfSpecialRequests",
 ]
 CATEGORICAL_COLS = [
-    "ArrivalDateMonth", "Meal", "MarketSegment", "DistributionChannel",
+    "ArrivalDateMonth", "Meal", "Country", "MarketSegment", "DistributionChannel",
     "ReservedRoomType", "AssignedRoomType", "DepositType", "CustomerType",
     "ReservationStatus",
 ]
@@ -112,19 +112,26 @@ def summary_statistics(df):
 
     cat_rows = []
     for col in CATEGORICAL_COLS + ID_COLS + BINARY_COLS:
-        vc = df[col].value_counts(dropna=True)
+        # NULL in Agent and Company means "not applicable", not missing.
+        is_null = df[col].eq("NULL")
+        values = df.loc[~is_null, col]
+        vc = values.value_counts(dropna=True)
         cat_rows.append({
             "variable": col,
-            "n_unique": int(df[col].nunique(dropna=True)),
-            "n_missing": int(df[col].isna().sum()),
+            "n_unique": int(values.nunique(dropna=True)),
+            "n_missing": int(values.isna().sum()),
+            "n_not_applicable": int(is_null.sum()),
             "mode": vc.index[0] if len(vc) else None,
             "mode_count": int(vc.iloc[0]) if len(vc) else 0,
             "mode_pct": round(100 * vc.iloc[0] / len(df), 2) if len(vc) else 0,
         })
     save_table(pd.DataFrame(cat_rows), "06_categorical_summary.csv")
 
+    dates = pd.to_datetime(df["ReservationStatusDate"])
     return {"adr": {k: round(float(v), 2) for k, v in df["ADR"].describe().items()},
-            "cancel_rate": round(float(df["IsCanceled"].mean()), 4)}
+            "cancel_rate": round(float(df["IsCanceled"].mean()), 4),
+            "reservation_status_date_range": (str(dates.min().date()),
+                                              str(dates.max().date()))}
 
 
 def numeric_distributions(df):
@@ -209,6 +216,64 @@ def categorical_distributions(df):
         c: (str(df[c].value_counts().index[0]),
             round(float(100 * df[c].value_counts().iloc[0] / n), 1))
         for c in ["MarketSegment", "CustomerType", "DepositType", "Meal"]}}
+
+
+def high_cardinality_distributions(df):
+    n = len(df)
+    # The raw file splits China across two codes; preprocessing merges them.
+    panels = [("Country", df["Country"].replace({"CN": "CHN"}), "codes"),
+              ("Agent", df["Agent"], "IDs"),
+              ("Company", df["Company"], "IDs")]
+    fig, axes = plt.subplots(2, 2, figsize=(20, 16), constrained_layout=True)
+    n_levels = {}
+    for ax, (col, values, unit) in zip(axes.flat, panels):
+        is_null = values.eq("NULL")
+        vc = values[~is_null].value_counts()
+        n_levels[col] = len(vc)
+        rest = vc.iloc[15:]
+        labels = [f"Other ({len(rest)} {unit})"] + [str(i) for i in vc.index[:15][::-1]]
+        vals = [int(rest.sum())] + [int(v) for v in vc.values[:15][::-1]]
+        bars = ax.barh(labels, vals, color=G300, height=0.6, zorder=3, edgecolor="white")
+        bars[-1].set_color(ACCENT)
+        mx = max(vals)
+        for b, v in zip(bars, vals):
+            ax.text(v + mx * 0.02, b.get_y() + b.get_height() / 2,
+                    f"{v:,} ({v / n:.1%})", va="center", fontsize=9, color=G700)
+        ax.set_xlim(0, mx * 1.25)
+        n_null = int(is_null.sum())
+        note = (f"CN merged into CHN, {int(values.isna().sum()):,} missing" if col == "Country"
+                else f"{n_null:,} bookings ({n_null / n:.0%}) are NULL (not applicable)")
+        ax.set_title(f"{col} — {len(vc)} {unit}, {note}", loc="left", fontsize=12)
+        _grid(ax, axis="x")
+
+    ax = axes[1, 1]
+    dates = pd.to_datetime(df["ReservationStatusDate"])
+    arrivals = pd.to_datetime(
+        df["ArrivalDateYear"].astype(str) + "-" + df["ArrivalDateMonth"] + "-"
+        + df["ArrivalDateDayOfMonth"].astype(str), format="%Y-%B-%d")
+    first_arrival = arrivals.min()
+    n_before = int((dates < first_arrival).sum())
+    months = dates.dt.to_period("M").value_counts().sort_index()
+    months = months.reindex(pd.period_range(months.index.min(), months.index.max(),
+                                            freq="M"), fill_value=0)
+    ax.plot(months.index.to_timestamp(), months.values, color=ACCENT, linewidth=2.2,
+            zorder=3)
+    ax.set_ylim(0, months.max() * 1.15)
+    ax.axvline(first_arrival, color=G500, linewidth=1.2, linestyle="--", zorder=2)
+    ax.text(first_arrival, months.max() * 1.08, f"  first arrival {first_arrival:%d %b %Y}",
+            fontsize=10, color=G900)
+    ticks = months.index[::6].to_timestamp()
+    ax.set_xticks(ticks, [t.strftime("%b %Y") for t in ticks])
+    ax.set_ylabel("bookings per month")
+    ax.set_title(f"ReservationStatusDate — {dates.min():%d %b %Y} to {dates.max():%d %b %Y}, "
+                 f"{n_before:,} dates before the first arrival", loc="left", fontsize=12)
+    _grid(ax)
+
+    fig.suptitle("High-cardinality variables and status dates — top 15 shown, "
+                 "accent marks the most common value",
+                 fontsize=16, fontweight="bold")
+    save_fig(fig, "fig05_high_cardinality_and_status_dates.png")
+    return {"n_levels": n_levels, "n_status_dates_before_first_arrival": n_before}
 
 
 def skewness_analysis(df):
@@ -440,7 +505,7 @@ def outlier_analysis(df):
     ax.set_xlabel("weekend + week nights")
     _grid(ax)
 
-    fig.suptitle("Outlier deep dives — extremes are few, genuine, and must be "
+    fig.suptitle("Outlier deep dives — extremes are few and must be "
                  "handled by rule, not silently", fontsize=15, fontweight="bold")
     save_fig(fig, "fig13_outlier_deep_dives.png")
 
@@ -474,17 +539,20 @@ def outlier_analysis(df):
 
 
 # Text values are padded with spaces (e.g. "       NULL", "HB       "),
-# so strip them first, otherwise "NULL" isn't recognised as missing.
+# so strip them first, otherwise "NULL" isn't recognised.
 df = pd.read_csv(project_folder / "data" / "raw" / "H2.csv")
 text_cols = df.select_dtypes(exclude="number").columns
 df[text_cols] = df[text_cols].apply(lambda c: c.str.strip())
-df = df.replace("NULL", np.nan)
+# NULL marks a missing value only in Country. In Agent and Company it means
+# "not applicable", so those columns keep it as a value.
+df["Country"] = df["Country"].replace("NULL", np.nan)
 print(df.shape)
 
 results = {}
 results["summary_statistics"] = summary_statistics(df)
 results["numeric_distributions"] = numeric_distributions(df)
 results["categorical_distributions"] = categorical_distributions(df)
+results["high_cardinality_distributions"] = high_cardinality_distributions(df)
 results["skewness_analysis"] = skewness_analysis(df)
 results["outlier_analysis"] = outlier_analysis(df)
 

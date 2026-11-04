@@ -34,7 +34,7 @@ The scripts below follow the order of our data analysis and preparation. Run the
 
    The current H2 report finds 1,208 zero-ADR rows: 331 also have zero nights, 137 also have zero guests, and 67 have both. These counts overlap. The article defines ADR per staying night, so zero nights accounts for why these 331 rows cannot have a normal per-night rate. Of all 542 `Complementary` bookings, 508 have zero ADR; the category suggests a zero-price booking but the article does not confirm each case. Another 327 zero-ADR rows have positive nights and guests in other market segments.
 
-4. **Summarize and plot the data.** `src/data/statistics_plots.py` makes summary tables and charts for numeric and categorical values, skewness, and outliers. For this analysis, it removes surrounding spaces from text and treats `NULL` as missing in memory. Tables are saved in `outputs/tables/` and figures in `outputs/figures/`. This analysis uses the full raw dataset, including duplicate rows.
+4. **Summarize and plot the data.** `src/data/statistics_plots.py` makes summary tables and charts for numeric and categorical values, skewness, and outliers. For this analysis, it removes surrounding spaces from text and, in memory, treats `NULL` in `Country` as missing. `NULL` in `Agent` and `Company` means "not applicable", so the tables report it separately from missing values. Tables are saved in `outputs/tables/` and figures in `outputs/figures/`. This analysis uses the full raw dataset, including duplicate rows.
 
    ```powershell
    python src/data/statistics_plots.py
