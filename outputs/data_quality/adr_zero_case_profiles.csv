@@ -1,0 +1,7 @@
+case,bookings,checked_out,canceled,no_show
+zero_nights_and_zero_guests,67,57,10,0
+zero_nights_and_positive_guests,264,251,6,7
+positive_nights_zero_guests_zero_adr,70,57,12,1
+positive_nights_zero_guests_positive_adr,30,30,0,0
+positive_nights_positive_guests_zero_adr_complementary,480,429,44,7
+positive_nights_positive_guests_zero_adr_other_segment,327,285,42,0

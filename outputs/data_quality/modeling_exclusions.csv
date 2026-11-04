@@ -1,0 +1,169 @@
+split,split_row_number,reason,ADR,Adults,Children,Babies,StaysInWeekendNights,StaysInWeekNights,MarketSegment,ReservationStatus
+train,276,zero_guests,0,0,0,0,2,5,Groups,Check-Out
+train,710,zero_guests,0,0,0,0,2,0,Online TA,Check-Out
+train,815,zero_guests,0,0,0,0,0,4,Online TA,Check-Out
+train,1995,zero_guests,0,0,0,0,2,0,Groups,Canceled
+train,2106,zero_guests,0,0,0,0,1,4,Online TA,Check-Out
+train,2342,zero_guests,0,0,0,0,0,2,Groups,Check-Out
+train,2393,zero_guests,0,0,0,0,0,1,Direct,Check-Out
+train,5875,zero_guests,0,0,0,0,0,3,Online TA,No-Show
+train,5888,zero_guests,0,0,0,0,0,1,Complementary,Check-Out
+train,6117,zero_guests,56.27,0,0,0,2,4,Direct,Check-Out
+train,7564,zero_guests,0,0,0,0,2,3,Offline TA/TO,Canceled
+train,8690,zero_guests,50.87,0,0,0,2,4,Online TA,Check-Out
+train,8691,zero_guests,50.87,0,0,0,2,4,Online TA,Check-Out
+train,11135,zero_guests,0,0,0,0,0,4,Online TA,Check-Out
+train,12579,zero_guests,57.3,0,0,0,3,5,Online TA,Check-Out
+train,16465,zero_guests,0,0,0,0,4,11,Corporate,Canceled
+train,16942,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+train,16943,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+train,16946,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+train,19166,zero_guests,0,0,0,0,0,3,Groups,Canceled
+train,19852,zero_guests,0,0,0,0,0,3,Offline TA/TO,Canceled
+train,23877,zero_guests,0,0,0,0,2,1,Groups,Canceled
+train,26486,zero_guests,0,0,0,0,0,0,Online TA,Canceled
+train,26487,zero_guests,0,0,0,0,0,0,Online TA,Canceled
+train,29276,zero_guests,0,0,0,0,2,2,Offline TA/TO,Check-Out
+train,29518,zero_guests,0,0,0,0,2,10,Corporate,Check-Out
+train,29531,zero_guests,0,0,0,0,0,1,Online TA,Check-Out
+train,29533,zero_guests,0,0,0,0,0,1,Online TA,Check-Out
+train,30309,zero_guests,0,0,0,0,2,4,Groups,Check-Out
+train,30819,zero_guests,0,0,0,0,0,1,Direct,Check-Out
+train,31135,zero_guests,0,0,0,0,2,3,Offline TA/TO,Check-Out
+train,31721,zero_guests,0,0,0,0,2,4,Offline TA/TO,Canceled
+train,31722,zero_guests,0,0,0,0,2,4,Offline TA/TO,Canceled
+train,31898,zero_guests,0,0,0,0,0,0,Direct,Check-Out
+train,33708,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,33709,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,33710,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,34723,zero_guests,0,0,0,0,0,1,Complementary,Check-Out
+train,36265,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,36301,zero_guests,0,0,0,0,2,3,Online TA,Check-Out
+train,36629,zero_guests,3.38,0,0,0,2,6,Groups,Check-Out
+train,38297,zero_guests,0,0,0,0,14,35,Corporate,Check-Out
+train,38551,zero_guests,0,0,0,0,2,5,Direct,Check-Out
+train,38552,zero_guests,0,0,0,0,2,1,Offline TA/TO,Check-Out
+train,38647,zero_guests,136.46,0,0,0,2,4,Direct,Check-Out
+train,39370,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,40659,zero_guests,0,0,0,0,3,7,Groups,Check-Out
+train,41022,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,42396,zero_guests,0,0,0,0,5,10,Online TA,Check-Out
+train,42492,zero_guests,0,0,0,0,0,1,Direct,Check-Out
+train,42553,zero_guests,0,0,0,0,0,1,Direct,Check-Out
+train,42861,zero_guests,0,0,0,0,0,0,Complementary,Check-Out
+train,42862,zero_guests,0,0,0,0,0,0,Complementary,Check-Out
+train,43663,zero_guests,69.5,0,0,0,2,2,Online TA,Check-Out
+train,43701,zero_guests,0,0,0,0,2,5,Online TA,Check-Out
+train,45171,zero_guests,0,0,0,0,1,4,Offline TA/TO,Check-Out
+train,45211,zero_guests,89.2,0,0,0,3,6,Online TA,Check-Out
+train,45345,zero_guests,0,0,0,0,4,10,Direct,Check-Out
+train,46317,zero_guests,0,0,0,0,0,4,Direct,Check-Out
+train,46318,zero_guests,0,0,0,0,8,20,Online TA,Check-Out
+train,46690,zero_guests,16.92,0,0,0,4,9,Online TA,Check-Out
+train,47273,zero_guests,0,0,0,0,2,3,Corporate,Check-Out
+train,47340,zero_guests,0,0,0,0,2,3,Offline TA/TO,Check-Out
+train,47643,zero_guests,0,0,0,0,1,4,Direct,Check-Out
+train,47723,zero_guests,0,0,0,0,0,1,Offline TA/TO,Check-Out
+train,48034,zero_guests,0,0,0,0,4,7,Offline TA/TO,Check-Out
+train,48214,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,48279,zero_guests,0,0,0,0,6,16,Corporate,Check-Out
+train,48451,zero_guests,0,0,0,0,0,0,Groups,Check-Out
+train,48893,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,48955,zero_guests,165.38,0,0,0,0,2,Direct,Check-Out
+train,48957,zero_guests,168.3,0,0,0,1,3,Online TA,Check-Out
+train,49278,zero_guests,8.34,0,0,0,16,41,Online TA,Check-Out
+train,49288,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,49289,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,49401,zero_guests,97.4,0,0,0,1,3,Online TA,Check-Out
+train,49441,zero_guests,92.67,0,0,0,1,2,Online TA,Check-Out
+train,49475,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,49476,zero_guests,0,0,0,0,0,0,Corporate,Check-Out
+train,49557,zero_guests,0,0,0,0,2,3,Offline TA/TO,Check-Out
+train,49562,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,49564,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,49586,zero_guests,6.4,0,0,0,4,7,Online TA,Check-Out
+train,49645,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,49696,zero_guests,0,0,0,0,2,8,Offline TA/TO,Check-Out
+train,49932,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,50082,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,50089,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,50445,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,50486,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,50802,zero_guests,20.88,0,0,0,0,3,Offline TA/TO,Check-Out
+train,50996,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,51135,zero_guests,1.29,0,0,0,2,5,Direct,Check-Out
+train,51206,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,51899,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,51962,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,52321,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,52407,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,52409,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,53056,zero_guests,0,0,0,0,13,30,Online TA,Check-Out
+train,53057,zero_guests,35.81,0,0,0,5,10,Online TA,Check-Out
+train,53061,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,53124,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,53172,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,53271,zero_guests,86.4,0,0,0,0,3,Online TA,Check-Out
+train,53435,zero_guests,0,0,0,0,3,9,Offline TA/TO,Check-Out
+train,53436,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,53440,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,53540,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,53542,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,53838,zero_guests,0,0,0,0,3,7,Online TA,Check-Out
+train,53867,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+train,53979,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,54231,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+train,54244,zero_guests,0,0,0,0,4,10,Direct,Check-Out
+train,55097,zero_guests,0,0,0,0,8,19,Direct,Check-Out
+train,55803,zero_guests,0,0,0,0,2,3,Direct,Check-Out
+train,56080,zero_guests,0,0,0,0,0,0,Online TA,Canceled
+train,56098,zero_guests,0,0,0,0,2,3,Corporate,Check-Out
+train,56688,zero_guests,0,0,0,0,0,0,Complementary,Check-Out
+train,56702,zero_guests,0,0,0,0,2,6,Offline TA/TO,Check-Out
+train,56987,zero_guests,200,0,0,0,0,1,Offline TA/TO,Check-Out
+train,57082,zero_guests,0,0,0,0,0,2,Groups,Check-Out
+train,57223,zero_guests,0,0,0,0,0,0,Groups,Check-Out
+train,57224,zero_guests,0,0,0,0,0,0,Groups,Check-Out
+train,57443,zero_guests,0,0,0,0,0,1,Direct,Check-Out
+train,57834,zero_guests,0,0,0,0,2,2,Groups,Check-Out
+train,57900,zero_guests,0,0,0,0,0,2,Direct,Check-Out
+train,58420,zero_guests,0,0,0,0,0,0,Groups,Check-Out
+train,59814,zero_guests,0,0,0,0,0,0,Aviation,Check-Out
+train,59817,zero_guests,0,0,0,0,0,0,Aviation,Check-Out
+train,59916,zero_guests,100.8,0,0,0,0,3,Online TA,Check-Out
+train,59965,zero_guests,0,0,0,0,0,1,Complementary,Check-Out
+train,60895,zero_guests,73.8,0,0,0,1,1,Online TA,Check-Out
+train,61124,zero_guests,22.86,0,0,0,2,5,Online TA,Check-Out
+train,61581,zero_guests,0,0,0,0,0,2,Offline TA/TO,Check-Out
+test,173,zero_guests,0,0,0,0,9,20,Online TA,Check-Out
+test,1466,ADR_5400,5400,2,0,0,0,1,Offline TA/TO,Canceled
+test,2835,zero_guests,0,0,0,0,2,4,Offline TA/TO,Canceled
+test,2836,zero_guests,0,0,0,0,2,4,Offline TA/TO,Canceled
+test,2837,zero_guests,0,0,0,0,2,4,Offline TA/TO,Canceled
+test,4463,zero_guests,0,0,0,0,0,2,Complementary,Canceled
+test,5066,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+test,5067,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+test,5068,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+test,5069,zero_guests,0,0,0,0,0,0,Complementary,Canceled
+test,7521,zero_guests,0,0,0,0,0,0,Direct,Check-Out
+test,7700,zero_guests,0,0,0,0,2,2,Groups,Check-Out
+test,7773,zero_guests,6,0,0,0,1,2,Corporate,Check-Out
+test,8324,zero_guests,0,0,0,0,0,1,Complementary,Check-Out
+test,8498,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+test,8778,zero_guests,0,0,0,0,0,2,Direct,Check-Out
+test,8880,zero_guests,0,0,0,0,3,5,Online TA,Check-Out
+test,9167,zero_guests,0,0,0,0,0,0,Direct,Check-Out
+test,9931,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+test,10672,zero_guests,77.53,0,0,0,2,5,Online TA,Check-Out
+test,10701,zero_guests,1,0,0,0,2,0,Corporate,Check-Out
+test,11185,zero_guests,32.85,0,0,0,0,4,Online TA,Check-Out
+test,12533,zero_guests,0,0,0,0,0,1,Groups,Check-Out
+test,12560,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+test,12643,zero_guests,0,0,0,0,0,0,Offline TA/TO,Check-Out
+test,13030,zero_guests,27.69,0,0,0,4,10,Online TA,Check-Out
+test,13446,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+test,13630,zero_guests,8,0,0,0,4,7,Online TA,Check-Out
+test,13731,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+test,13732,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+test,13733,zero_guests,0,0,0,0,0,0,Online TA,Check-Out
+test,14981,zero_guests,90,0,0,0,1,4,Online TA,Check-Out

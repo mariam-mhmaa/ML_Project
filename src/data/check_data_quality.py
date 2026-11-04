@@ -234,17 +234,22 @@ def check_data_quality(csv_path, high_adr=1000.0,
     flag(numeric_valid["ADR"] & adr.gt(high_adr), "ADR", "REVIEW",
          f"ADR exceeds illustrative review threshold {high_adr:g}; not a deletion rule")
 
-    for columns, reason in [
-        (["Adults", "Children", "Babies"], "Total recorded guests is zero; investigate"),
-        (["StaysInWeekendNights", "StaysInWeekNights"],
-         "Total recorded nights is zero; investigate"),
+    guest_columns = ["Adults", "Children", "Babies"]
+    night_columns = ["StaysInWeekendNights", "StaysInWeekNights"]
+    guest_total = sum(numbers[c] for c in guest_columns)
+    night_total = sum(numbers[c] for c in night_columns)
+    valid_guests = pd.concat([numeric_valid[c] for c in guest_columns], axis=1).all(axis=1)
+    valid_nights = pd.concat([numeric_valid[c] for c in night_columns], axis=1).all(axis=1)
+    zero_guests = valid_guests & guest_total.eq(0)
+    zero_nights = valid_nights & night_total.eq(0)
+    for columns, mask, reason in [
+        (guest_columns, zero_guests, "Total recorded guests is zero; investigate"),
+        (night_columns, zero_nights, "Total recorded nights is zero; investigate"),
     ]:
-        complete = pd.concat([numeric_valid[c] for c in columns], axis=1).all(axis=1)
-        total = sum(numbers[c] for c in columns)
         values = data[columns[0]].copy()
         for column in columns[1:]:
             values = values + " + " + data[column]
-        flag(complete & total.eq(0), "+".join(columns), "REVIEW", reason, values)
+        flag(mask, "+".join(columns), "REVIEW", reason, values)
 
     issue_columns = ["record_number", "column", "severity", "raw_value", "reason"]
     issues = (pd.concat(issue_parts, ignore_index=True) if issue_parts
