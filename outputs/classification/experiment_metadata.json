@@ -1,0 +1,78 @@
+{
+  "input_data": {
+    "path": "C:\\Machine Learning\\Project\\ML_Project\\data\\preprocessed\\classification\\train_classification.csv",
+    "sha256": "8bfa81c5c0c3174b1538009ddaa175fd656c624a7823daeb41fd30a4dc718fe1",
+    "rows": 63329,
+    "columns": [
+      "LeadTime",
+      "ArrivalDateYear",
+      "ArrivalDateMonth",
+      "ArrivalDateWeekNumber",
+      "ArrivalDateDayOfMonth",
+      "StaysInWeekendNights",
+      "StaysInWeekNights",
+      "Adults",
+      "Children",
+      "Babies",
+      "Meal",
+      "Country",
+      "MarketSegment",
+      "DistributionChannel",
+      "IsRepeatedGuest",
+      "PreviousCancellations",
+      "PreviousBookingsNotCanceled",
+      "ReservedRoomType",
+      "Agent",
+      "Company",
+      "CustomerType",
+      "RequiredCarParkingSpaces",
+      "TotalOfSpecialRequests",
+      "IsCanceled"
+    ]
+  },
+  "random_seed": 42,
+  "n_splits": 5,
+  "grouping_rule": "Identical cleaned selected predictor rows, target excluded.",
+  "model_config": {
+    "random_forest": {
+      "bootstrap": true,
+      "ccp_alpha": 0.0,
+      "class_weight": null,
+      "criterion": "gini",
+      "max_depth": null,
+      "max_features": "sqrt",
+      "max_leaf_nodes": null,
+      "max_samples": null,
+      "min_impurity_decrease": 0.0,
+      "min_samples_leaf": 1,
+      "min_samples_split": 2,
+      "min_weight_fraction_leaf": 0.0,
+      "monotonic_cst": null,
+      "n_estimators": 100,
+      "n_jobs": -1,
+      "oob_score": false,
+      "random_state": 42,
+      "verbose": 0,
+      "warm_start": false
+    },
+    "dummy_prior": {
+      "constant": null,
+      "random_state": null,
+      "strategy": "prior"
+    }
+  },
+  "package_versions": {
+    "python": "3.11.9",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scikit_learn": "1.9.1",
+    "joblib": "1.6.0",
+    "matplotlib": "3.11.0"
+  },
+  "source_commit": "30e48f133ea549d50e44118d916310c4b350e03f",
+  "notes": {
+    "primary_metric": "f1_canceled",
+    "probability_metrics_use_predicted_probability_of_class_1": true,
+    "zero_division_policy": 0
+  }
+}

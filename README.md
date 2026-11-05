@@ -110,7 +110,15 @@ The scripts below follow the order of our data analysis and preparation. Run the
 
    Details and assumptions are documented in `docs/classification_milestone1.md`.
 
-9. **Prepare, audit, and run the regression Milestone 1 baseline.** Regression
+9. **Run the untuned classification baseline (Milestone 1).** `src/classification/run_milestone1_baseline.py` runs grouped stratified 5-fold cross-validation on `train_classification.csv` using a fold-local preprocessing + `RandomForestClassifier(random_state=42, n_jobs=-1)` pipeline and a `DummyClassifier(strategy="prior")` reference. It saves fold assignments, out-of-fold predictions, metrics, plots, reproducibility metadata, and a full-training fitted pipeline artifact.
+
+   ```powershell
+   python src/classification/run_milestone1_baseline.py
+   ```
+
+   Results, interpretation, limitations, and remaining Milestone 2 work are documented in `docs/classification_milestone1.md`.
+
+10. **Prepare, audit, and run the regression Milestone 1 baseline.** Regression
    starts from shared `train.csv`, excludes zero-night bookings only in its own
    view, and retains positive-night zero-rate bookings. The untuned Linear
    Regression and mean-dummy comparison uses grouped five-fold cross-validation

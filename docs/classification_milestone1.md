@@ -111,13 +111,100 @@ python src/classification/audit_training_data.py
 - Do conflicting-label groups reflect real repeated bookings or unresolved data quality issues?
 - Are rare `Agent` and `Company` categories stable enough for production-style generalization?
 
-## Planned validation approach (required for Milestone 1, not executed yet)
+## Milestone 1 untuned experiment implementation
 
-- Model: untuned `RandomForestClassifier` with defaults, plus `random_state=42` and `n_jobs=-1`.
-- Evaluation design: grouped, stratified 5-fold cross-validation on training data.
-- Group definition: identical cleaned selected predictors (target excluded) stay in one fold.
-- Preprocessing fit: separately inside each fold.
-- Primary metric: cancellation-class F1.
-- Supporting metrics: accuracy, precision, recall, confusion matrix, ROC-AUC, average precision.
-- Baseline comparator: simple dummy classifier on same folds.
-- Final `test.csv`: reserved for Milestone 2 only.
+The baseline experiment is implemented in:
+
+```powershell
+python src/classification/run_milestone1_baseline.py
+```
+
+### Model-selection justification
+
+- Main baseline model: `RandomForestClassifier(random_state=42, n_jobs=-1)` with all other defaults from scikit-learn 1.9.1.
+- Reference model: `DummyClassifier(strategy="prior")`.
+
+The dummy model ignores booking characteristics and predicts using only class prevalence. It provides a minimum reference to check whether the random forest adds useful signal.
+
+### Validation and grouping strategy
+
+- Data used: `data/preprocessed/classification/train_classification.csv` only.
+- Five-fold `StratifiedGroupKFold(n_splits=5, shuffle=True, random_state=42)`.
+- Group rule: rows with identical cleaned selected predictors (target excluded) stay in one fold, including conflicting-label groups.
+- Fold assignments are generated once and reused for both models.
+- For each fold, preprocessing and model fitting are performed from scratch on that fold's training split only.
+- Per-fold training metrics are recorded as overfitting diagnostics.
+
+### Metric definitions and primary summary
+
+- Primary metric: cancellation-class F1 (`f1_canceled`).
+- Supporting metrics: accuracy, cancellation-class precision, cancellation-class recall, confusion-matrix counts, ROC-AUC, average precision.
+- Ranking metrics (ROC-AUC, average precision) are computed from predicted cancellation probabilities.
+- For undefined precision/F1 edge cases, `zero_division=0` is used. This occurs for the dummy-prior model because it predicts only class 0 in all folds.
+
+### Cross-validation results (training data only)
+
+Mean ± standard deviation across folds:
+
+- Random forest:
+  - F1 (canceled): **0.8048 ± 0.0073**
+  - Accuracy: 0.8470 ± 0.0046
+  - Precision (canceled): 0.8621 ± 0.0048
+  - Recall (canceled): 0.7547 ± 0.0130
+  - ROC-AUC: 0.9278 ± 0.0028
+  - Average precision: 0.9119 ± 0.0035
+- Dummy prior:
+  - F1 (canceled): **0.0000 ± 0.0000**
+  - Accuracy: 0.5822 ± 0.0000
+  - Precision/Recall (canceled): 0.0000 / 0.0000
+  - ROC-AUC: 0.5000
+  - Average precision: 0.4178
+
+Pooled out-of-fold confusion matrix (random forest):
+
+- TN: 33,672
+- FP: 3,195
+- FN: 6,492
+- TP: 19,970
+
+Interpretation (descriptive, not causal):
+
+- The random forest strongly outperforms the dummy baseline on F1, recall, ROC-AUC, and average precision, indicating non-trivial predictive value from the retained features.
+- Fold variability is moderate; no single fold dominates the result.
+- Precision is higher than recall for the cancellation class, showing a conservative positive prediction tendency at the default threshold.
+
+### Training-versus-validation differences
+
+Random-forest training scores are substantially higher than validation scores (for example training F1 ≈ 0.99 vs validation F1 ≈ 0.80), indicating notable overfitting under default settings. This is expected for an untuned baseline and motivates structured tuning only in later milestones.
+
+### Reusable fitted baseline artifact
+
+After cross-validation, a fresh unchanged pipeline is fitted on all training rows and saved to:
+
+- `artifacts/classification/random_forest_baseline_pipeline.joblib`
+
+Artifact reload check confirms identical predictions and probabilities on a held sample after reload (`outputs/classification/artifact_reload_check_sample.csv`).
+
+### Reproducibility records
+
+- Input hash, source commit, seed, fold setup, feature list, model parameters, and package versions are saved in:
+  - `outputs/classification/experiment_metadata.json`
+- Fold assignments:
+  - `outputs/classification/cv_fold_assignments.csv`
+- Per-fold and pooled metrics:
+  - `outputs/classification/cv_per_fold_validation_metrics.csv`
+  - `outputs/classification/cv_per_fold_training_metrics.csv`
+  - `outputs/classification/cv_validation_summary_mean_std.csv`
+  - `outputs/classification/cv_oof_pooled_metrics.csv`
+  - `outputs/classification/rf_vs_dummy_comparison.csv`
+- OOF diagnostics:
+  - `outputs/classification/oof_confusion_matrix_random_forest.png`
+  - `outputs/classification/oof_confusion_matrix_dummy_prior.png`
+  - `outputs/classification/oof_roc_curve_comparison.png`
+  - `outputs/classification/oof_precision_recall_curve_comparison.png`
+
+### Remaining Milestone 2 work
+
+- Evaluate the chosen/frozen model once on `data/preprocessed/test.csv` (still untouched here).
+- If model development continues first, perform tuning/model comparison only on training data with grouped validation and then freeze a final training pipeline.
+- Decide and document any operating-threshold policy and deployment-specific tradeoffs after test-set evaluation.
