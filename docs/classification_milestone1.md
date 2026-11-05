@@ -189,6 +189,11 @@ Artifact reload check confirms identical predictions and probabilities on a held
 
 - Input hash, source commit, seed, fold setup, feature list, model parameters, and package versions are saved in:
   - `outputs/classification/experiment_metadata.json`
+- For future runs, metadata now stores separate source-state snapshots at run
+  start and end, including UTC capture times, Git HEAD/status availability,
+  relevant source-file hashes, and whether relevant source files changed during
+  the run. This distinguishes source-code changes from ordinary generated-result
+  file changes.
 - Historical-run limitation: the existing metadata file records one Git HEAD
   (`source_commit`) but does not include historical run timestamps, source-file
   hashes, or worktree dirty/untracked state. Therefore, that HEAD alone does
