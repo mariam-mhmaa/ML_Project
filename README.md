@@ -1,8 +1,9 @@
 # City Hotel Booking ML Project
 
-This project uses the City Hotel booking dataset (`data/raw/H2.csv`) for the CSE382 Introduction to Machine Learning project. The dataset has 79,330 bookings and 31 columns.
+- **GitHub repository:** https://github.com/mariam-mhmaa/ML_Project
+- **Submission commit SHA:** Get this after the final commit with `git rev-parse HEAD` and provide it in the submission form.
 
-Repository: https://github.com/mariam-mhmaa/ML_Project
+This project uses the City Hotel booking dataset (`data/raw/H2.csv`) for the CSE382 Introduction to Machine Learning project. The dataset has 79,330 bookings and 31 columns.
 
 ## Setup
 
