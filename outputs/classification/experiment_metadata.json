@@ -70,6 +70,18 @@
     "matplotlib": "3.11.0"
   },
   "source_commit": "30e48f133ea549d50e44118d916310c4b350e03f",
+  "historical_provenance_annotation": {
+    "scope": "This metadata corresponds to an existing historical run output.",
+    "recorded_fields_limit": "The historical record stores one Git HEAD value but does not store run timestamps, worktree dirty/untracked state, or source-file hashes.",
+    "interpretation": "Recorded HEAD alone cannot fully identify all source code used for that historical run.",
+    "not_recorded_historically": {
+      "run_started_utc": null,
+      "run_completed_utc": null,
+      "worktree_state": null,
+      "source_code_hashes": null
+    },
+    "input_hash_note": "input_data.sha256 is a byte-level hash of the CSV file. Cross-platform text exports can differ by line endings (CRLF vs LF) without changing tabular values."
+  },
   "notes": {
     "primary_metric": "f1_canceled",
     "probability_metrics_use_predicted_probability_of_class_1": true,

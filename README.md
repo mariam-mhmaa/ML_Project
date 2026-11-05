@@ -213,10 +213,26 @@ distributions but did not train or select a regression model.
 ## Milestone 1 submission handoff
 
 The specification requires initial regression, classification, and clustering
-experiments now. The classification data-preparation note currently defers its
-experiment; its owner should add that baseline, and the clustering owner should
-complete its portion. The team must combine the progress report and identify
-members, GitHub accounts, and contributions.
+experiments now.
+
+Completed classification work:
+
+- classification preparation and audit on training data;
+- untuned `RandomForestClassifier(random_state=42, n_jobs=-1)` baseline plus
+  `DummyClassifier(strategy="prior")` reference;
+- grouped stratified five-fold cross-validation with fold-local preprocessing;
+- saved training/validation metrics, out-of-fold predictions, plots, and
+  experiment metadata under `outputs/classification/`;
+- code path to fit, save, and reload-verify a local full-training pipeline
+  artifact.
+
+Remaining team work:
+
+- clustering Milestone 1 experiment and reporting;
+- combined team progress report with member names, GitHub accounts, and
+  contribution summary;
+- Milestone 2 final test-set evaluation using frozen workflows (no test-driven
+  tuning).
 
 After committing the final submission version, record its actual SHA in the
 submission copy of the README (obtain it with `git rev-parse HEAD`). Exclude local

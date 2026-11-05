@@ -12,6 +12,7 @@ import platform
 import sys
 import time
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 
 import joblib
@@ -69,6 +70,77 @@ def _sha256(path: Path) -> str:
                 break
             digest.update(chunk)
     return digest.hexdigest()
+
+
+def _portable_text_sha256_utf8_lf(path: Path) -> str:
+    """Hash text after UTF-8 decode and LF normalization.
+
+    Normalization definition:
+    - decode bytes as UTF-8
+    - replace CRLF and CR with LF
+    - encode normalized text as UTF-8 and hash
+    """
+    text = path.read_text(encoding="utf-8")
+    normalized = text.replace("\r\n", "\n").replace("\r", "\n")
+    return hashlib.sha256(normalized.encode("utf-8")).hexdigest()
+
+
+def _utc_now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _git_head_sha() -> str:
+    try:
+        import subprocess
+
+        return subprocess.check_output(
+            ["git", "rev-parse", "HEAD"],
+            cwd=PROJECT_ROOT,
+            text=True,
+        ).strip()
+    except Exception:
+        return "unavailable"
+
+
+def _git_porcelain_lines() -> list[str]:
+    try:
+        import subprocess
+
+        output = subprocess.check_output(
+            ["git", "status", "--porcelain"],
+            cwd=PROJECT_ROOT,
+            text=True,
+        )
+        lines = [line for line in output.splitlines() if line.strip()]
+        return lines
+    except Exception:
+        return []
+
+
+def _collect_worktree_provenance() -> dict[str, object]:
+    lines = _git_porcelain_lines()
+    tracked_changes = []
+    untracked_paths = []
+    for line in lines:
+        status = line[:2]
+        rel_path = line[3:].strip() if len(line) > 3 else ""
+        if status == "??":
+            untracked_paths.append(rel_path)
+        else:
+            tracked_changes.append(rel_path)
+
+    relevant_prefixes = ("src/classification/", "src/preprocessing/classification/")
+    relevant_tracked = [p for p in tracked_changes if p.startswith(relevant_prefixes)]
+    relevant_untracked = [p for p in untracked_paths if p.startswith(relevant_prefixes)]
+
+    return {
+        "git_head": _git_head_sha(),
+        "has_tracked_changes": bool(tracked_changes),
+        "has_relevant_untracked_source_changes": bool(relevant_untracked),
+        "tracked_change_paths": tracked_changes,
+        "relevant_untracked_source_paths": relevant_untracked,
+        "relevant_tracked_source_paths": relevant_tracked,
+    }
 
 
 def _safe_auc(y_true: np.ndarray, y_score: np.ndarray) -> float:
@@ -200,6 +272,7 @@ def main() -> None:
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     ARTIFACT_DIR.mkdir(parents=True, exist_ok=True)
+    run_started_utc = _utc_now_iso()
 
     data = pd.read_csv(CLASSIFICATION_OUTPUT)
     expected_columns = PREDICTOR_COLUMNS + [TARGET_COLUMN]
@@ -405,25 +478,46 @@ def main() -> None:
     })
     artifact_check.to_csv(OUTPUT_DIR / "artifact_reload_check_sample.csv", index=False)
 
-    git_commit = "unavailable"
-    try:
-        import subprocess
-
-        git_commit = subprocess.check_output(
-            ["git", "rev-parse", "HEAD"],
-            cwd=PROJECT_ROOT,
-            text=True,
-        ).strip()
-    except Exception:
-        git_commit = "unavailable"
+    run_completed_utc = _utc_now_iso()
+    worktree = _collect_worktree_provenance()
+    source_files = {
+        "training_script": Path(__file__).resolve(),
+        "classification_preprocessing": (
+            PROJECT_ROOT / "src" / "preprocessing" / "classification" / "preprocessing.py"
+        ),
+        "classification_prepare_script": (
+            PROJECT_ROOT
+            / "src"
+            / "preprocessing"
+            / "classification"
+            / "prepare_classification_data.py"
+        ),
+    }
+    source_hashes = {}
+    for key, path in source_files.items():
+        source_hashes[key] = {
+            "path": str(path),
+            "sha256_bytes": _sha256(path),
+            "sha256_utf8_lf_normalized": _portable_text_sha256_utf8_lf(path),
+            "text_hash_normalization": "UTF-8 text with LF line endings",
+        }
 
     metadata = {
+        "run_timestamps_utc": {
+            "started": run_started_utc,
+            "completed": run_completed_utc,
+        },
         "input_data": {
             "path": str(CLASSIFICATION_OUTPUT),
             "sha256": _sha256(CLASSIFICATION_OUTPUT),
+            "sha256_bytes": _sha256(CLASSIFICATION_OUTPUT),
+            "sha256_utf8_lf_normalized": _portable_text_sha256_utf8_lf(CLASSIFICATION_OUTPUT),
+            "text_hash_normalization": "UTF-8 text with LF line endings",
             "rows": int(len(data)),
             "columns": expected_columns,
         },
+        "source_code": source_hashes,
+        "worktree_state": worktree,
         "random_seed": RANDOM_STATE,
         "n_splits": N_SPLITS,
         "grouping_rule": "Identical cleaned selected predictor rows, target excluded.",
@@ -442,11 +536,15 @@ def main() -> None:
             "joblib": joblib.__version__,
             "matplotlib": plt.matplotlib.__version__,
         },
-        "source_commit": git_commit,
+        "source_commit": worktree["git_head"],
         "notes": {
             "primary_metric": "f1_canceled",
             "probability_metrics_use_predicted_probability_of_class_1": True,
             "zero_division_policy": 0,
+            "provenance_interpretation": (
+                "Git HEAD alone does not fully identify executed source when local "
+                "tracked or relevant untracked source changes are present."
+            ),
         },
     }
     with (OUTPUT_DIR / "experiment_metadata.json").open("w", encoding="utf-8") as handle:

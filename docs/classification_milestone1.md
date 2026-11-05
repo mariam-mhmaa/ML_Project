@@ -78,9 +78,9 @@ Applied before any fold-based learning:
 - Preprocessing is provided as reusable scikit-learn `ColumnTransformer`/`Pipeline` code.
 - Learned transformations are intended to be fitted inside each training fold during later cross-validation.
 
-The current preparation scripts do not create a globally fitted encoded dataset
-or fitted preprocessing/model artifact. The initial classification experiment
-remains required for Milestone 1 and has not yet been run.
+The preparation scripts do not create a globally fitted encoded dataset.
+Milestone 1 now includes a completed training-only grouped cross-validation
+experiment and a separately saved full-training pipeline artifact.
 
 ## Scripts and run commands (from repository root)
 
@@ -189,6 +189,10 @@ Artifact reload check confirms identical predictions and probabilities on a held
 
 - Input hash, source commit, seed, fold setup, feature list, model parameters, and package versions are saved in:
   - `outputs/classification/experiment_metadata.json`
+- Historical-run limitation: the existing metadata file records one Git HEAD
+  (`source_commit`) but does not include historical run timestamps, source-file
+  hashes, or worktree dirty/untracked state. Therefore, that HEAD alone does
+  not uniquely identify all source code used in the already-generated run.
 - Fold assignments:
   - `outputs/classification/cv_fold_assignments.csv`
 - Per-fold and pooled metrics:
@@ -205,6 +209,13 @@ Artifact reload check confirms identical predictions and probabilities on a held
 
 ### Remaining Milestone 2 work
 
-- Evaluate the chosen/frozen model once on `data/preprocessed/test.csv` (still untouched here).
-- If model development continues first, perform tuning/model comparison only on training data with grouped validation and then freeze a final training pipeline.
-- Decide and document any operating-threshold policy and deployment-specific tradeoffs after test-set evaluation.
+Milestone 1 uses grouped cross-validation and training data only. The reserved
+`data/preprocessed/test.csv` file remains untouched for Milestone 2.
+
+Correct final evaluation order:
+
+1. Compare models and tune hyperparameters using training-only grouped validation.
+2. If needed, select the operating threshold using training-only validation, with a justified precision/recall or business-cost objective.
+3. Freeze the complete preprocessing, model, and threshold.
+4. Evaluate the frozen workflow on the reserved final test set.
+5. Report the results without test-driven adjustments.
