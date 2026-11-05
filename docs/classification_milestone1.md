@@ -78,7 +78,9 @@ Applied before any fold-based learning:
 - Preprocessing is provided as reusable scikit-learn `ColumnTransformer`/`Pipeline` code.
 - Learned transformations are intended to be fitted inside each training fold during later cross-validation.
 
-No globally fitted encoded dataset or fitted preprocessing/model artifact is created in this milestone.
+The current preparation scripts do not create a globally fitted encoded dataset
+or fitted preprocessing/model artifact. The initial classification experiment
+remains required for Milestone 1 and has not yet been run.
 
 ## Scripts and run commands (from repository root)
 
@@ -109,7 +111,7 @@ python src/classification/audit_training_data.py
 - Do conflicting-label groups reflect real repeated bookings or unresolved data quality issues?
 - Are rare `Agent` and `Company` categories stable enough for production-style generalization?
 
-## Planned validation approach (next milestone, not executed here)
+## Planned validation approach (required for Milestone 1, not executed yet)
 
 - Model: untuned `RandomForestClassifier` with defaults, plus `random_state=42` and `n_jobs=-1`.
 - Evaluation design: grouped, stratified 5-fold cross-validation on training data.

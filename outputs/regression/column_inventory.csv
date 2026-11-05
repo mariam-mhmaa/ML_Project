@@ -1,0 +1,32 @@
+column,role,dtype,missing_rows,transformation,prediction_time_justification
+LeadTime,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Assume booking entry date and intended arrival date are known
+ArrivalDateYear,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Planned arrival year is known; random split does not test future years
+ArrivalDateMonth,predictor,object,0,Unknown imputation + one-hot encoding; IDs NULL -> NotApplicable,Planned arrival month captures seasonality
+ArrivalDateWeekNumber,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Planned arrival week captures seasonality; overlaps month
+ArrivalDateDayOfMonth,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Planned arrival day is known
+StaysInWeekendNights,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Assume recorded nights approximate originally booked weekend nights
+StaysInWeekNights,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Assume recorded nights approximate originally booked weekday nights
+Adults,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Assume recorded party size approximates booking-time party size
+Children,predictor,float64,4,median imputation + missing indicator where observed + standard scaling,Assume booking-time party size; missing values are not assumed to be zero
+Babies,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Assume recorded party size approximates booking-time party size
+Meal,predictor,object,0,Unknown imputation + one-hot encoding; IDs NULL -> NotApplicable,Assume recorded meal package approximates package chosen at booking
+Country,predictor,object,16,Unknown imputation + one-hot encoding; IDs NULL -> NotApplicable,Assume supplied at booking; paper warns true nationality may be known only at check-in
+MarketSegment,predictor,object,0,Unknown imputation + one-hot encoding; IDs NULL -> NotApplicable,Assume segment is identifiable from booking origin at creation
+DistributionChannel,predictor,object,0,Unknown imputation + one-hot encoding; IDs NULL -> NotApplicable,Assume channel is known when booking is created
+IsRepeatedGuest,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Assume guest profile predates booking and can be matched at creation
+PreviousCancellations,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Assume only outcomes already resolved at current booking creation
+PreviousBookingsNotCanceled,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Assume historical outcomes are known at current booking creation
+ReservedRoomType,predictor,object,0,Unknown imputation + one-hot encoding; IDs NULL -> NotApplicable,"Use originally reserved room category, not ultimate room assignment"
+Agent,predictor,object,0,Unknown imputation + one-hot encoding; IDs NULL -> NotApplicable,"Agency identity is known from booking origin; nominal ID, never an ordered number"
+Company,predictor,object,0,Unknown imputation + one-hot encoding; IDs NULL -> NotApplicable,Assume company payer is known at creation; nominal ID
+CustomerType,predictor,object,0,Unknown imputation + one-hot encoding; IDs NULL -> NotApplicable,Assume contract/group/transient arrangement is known at creation
+RequiredCarParkingSpaces,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Assume recorded parking requests were present at booking creation
+TotalOfSpecialRequests,predictor,float64,0,median imputation + missing indicator where observed + standard scaling,Assume recorded requests were present at booking creation
+ADR,target,float64,0,"unchanged; no imputation, clipping, or log transform","Predict recorded ADR, which may differ from initial quoted rate"
+IsCanceled,excluded,not used,,drop,"Eventual cancellation outcome, unavailable at booking creation"
+ReservationStatus,excluded,not used,,drop,Final reservation outcome
+ReservationStatusDate,excluded,not used,,drop,Date of a later reservation outcome
+AssignedRoomType,excluded,not used,,drop,Ultimate room assignment may happen after booking creation
+BookingChanges,excluded,not used,,drop,Cumulative amendments through check-in or cancellation
+DaysInWaitingList,excluded,not used,,drop,Completed waiting duration is unknown at creation
+DepositType,excluded,not used,,drop,Derived from payments and total stay cost; timing and rate proxy risk

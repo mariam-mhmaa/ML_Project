@@ -1,0 +1,106 @@
+{
+  "milestone": 1,
+  "target": "ADR",
+  "prediction_point": "booking_creation_oriented_proxy",
+  "training_input": "data\\preprocessed\\train.csv",
+  "training_input_sha256": "37e383e8ae9f723bdaffcacd27c2da93542d430ea5dc6a055f498933a3446511",
+  "training_rows": 63329,
+  "eligible_rows": 63125,
+  "zero_night_rows_excluded": 204,
+  "predictors": [
+    "LeadTime",
+    "ArrivalDateYear",
+    "ArrivalDateMonth",
+    "ArrivalDateWeekNumber",
+    "ArrivalDateDayOfMonth",
+    "StaysInWeekendNights",
+    "StaysInWeekNights",
+    "Adults",
+    "Children",
+    "Babies",
+    "Meal",
+    "Country",
+    "MarketSegment",
+    "DistributionChannel",
+    "IsRepeatedGuest",
+    "PreviousCancellations",
+    "PreviousBookingsNotCanceled",
+    "ReservedRoomType",
+    "Agent",
+    "Company",
+    "CustomerType",
+    "RequiredCarParkingSpaces",
+    "TotalOfSpecialRequests"
+  ],
+  "numeric_columns": [
+    "LeadTime",
+    "ArrivalDateYear",
+    "ArrivalDateWeekNumber",
+    "ArrivalDateDayOfMonth",
+    "StaysInWeekendNights",
+    "StaysInWeekNights",
+    "Adults",
+    "Children",
+    "Babies",
+    "IsRepeatedGuest",
+    "PreviousCancellations",
+    "PreviousBookingsNotCanceled",
+    "RequiredCarParkingSpaces",
+    "TotalOfSpecialRequests"
+  ],
+  "categorical_columns": [
+    "ArrivalDateMonth",
+    "Meal",
+    "Country",
+    "MarketSegment",
+    "DistributionChannel",
+    "ReservedRoomType",
+    "Agent",
+    "Company",
+    "CustomerType"
+  ],
+  "excluded_predictors": {
+    "IsCanceled": "Eventual cancellation outcome, unavailable at booking creation",
+    "ReservationStatus": "Final reservation outcome",
+    "ReservationStatusDate": "Date of a later reservation outcome",
+    "AssignedRoomType": "Ultimate room assignment may happen after booking creation",
+    "BookingChanges": "Cumulative amendments through check-in or cancellation",
+    "DaysInWaitingList": "Completed waiting duration is unknown at creation",
+    "DepositType": "Derived from payments and total stay cost; timing and rate proxy risk"
+  },
+  "cv": {
+    "splitter": "GroupKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42,
+    "grouping": "identical deterministic cleaned selected predictors; ADR excluded",
+    "preprocessing_fit": "independently inside each training fold"
+  },
+  "estimators": {
+    "dummy_mean": {
+      "constant": null,
+      "quantile": null,
+      "strategy": "mean"
+    },
+    "linear_regression": {
+      "copy_X": true,
+      "fit_intercept": true,
+      "n_jobs": null,
+      "positive": false,
+      "tol": 1e-06
+    }
+  },
+  "versions": {
+    "python": "3.13.13",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.11.0",
+    "joblib": "1.6.0"
+  },
+  "test_data_used": false,
+  "hyperparameter_search": false,
+  "target_clipping": false,
+  "negative_oof_predictions": 230,
+  "artifact": "artifacts/regression/linear_regression_baseline.joblib"
+}

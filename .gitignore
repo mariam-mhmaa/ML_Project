@@ -1,0 +1,12 @@
+# Local Python environment and download cache
+.venv/
+.python-runtime/
+.codex-task-cache/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Regenerate fitted artifacts locally; omit them from submission ZIPs.
+artifacts/**/*.joblib
+artifacts/**/*.pkl
+artifacts/**/*.pickle

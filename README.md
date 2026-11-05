@@ -2,13 +2,56 @@
 
 This project uses the City Hotel booking dataset (`data/raw/H2.csv`) for the CSE382 Introduction to Machine Learning project. The dataset has 79,330 bookings and 31 columns.
 
+Repository: https://github.com/mariam-mhmaa/ML_Project
+
 ## Setup
 
-From the project folder, install the Python packages:
+Use **64-bit Python 3.13** (tested with 3.13.13). Install Python separately;
+`requirements.txt` installs the project's Python packages. Each teammate creates
+their own environment; no downloaded Python installation or environment is shared
+through Git.
+
+On Windows, from PowerShell:
 
 ```powershell
-python -m pip install -r requirements.txt
+git clone https://github.com/mariam-mhmaa/ML_Project.git
+cd ML_Project
+py -3.13 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe -m pip check
 ```
+
+If the repository is already cloned, skip the first two commands and open its root
+(the folder containing this README, `src/`, and `data/`). If the Python launcher
+is unavailable, use `python -m venv .venv` with Python 3.13 on PATH.
+If `.venv` already exists, use its interpreter directly and skip environment
+creation; the install and dependency-check commands still apply.
+
+On macOS/Linux, the equivalent setup is:
+
+```bash
+python3.13 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m pip check
+```
+
+The Windows setup is verified; macOS/Linux commands follow the same environment
+layout but have not been tested here. In VS Code, use **Python: Select Interpreter**
+and choose `.venv/Scripts/python.exe` on Windows or `.venv/bin/python` on macOS/Linux.
+
+Run all project commands from the repository root. In the commands below,
+`python` means the environment's Python: use `.\.venv\Scripts\python.exe` on
+Windows or `.venv/bin/python` on macOS/Linux if you have not activated it.
+
+The requirements cover the current shared scripts, classification preparation,
+regression, and tests. They include NumPy, pandas, Matplotlib, scikit-learn, and
+joblib; pip installs their dependencies automatically. No notebook, CUDA, Codex,
+or uv installation is required to run this repository.
+
+The tracked CSVs and country reference are included, so a fresh clone already has
+the inputs. Regression can start directly from `data/preprocessed/train.csv`;
+rerunning the shared cleaning/split scripts is optional and is not part of a normal
+regression run.
 
 ## Work completed so far
 
@@ -58,7 +101,7 @@ The scripts below follow the order of our data analysis and preparation. Run the
    python src/preprocessing/audit_split.py
    ```
 
-8. **Prepare classification training data (Milestone 1 baseline).** `src/preprocessing/classification/prepare_classification_data.py` builds a cleaned training dataset for cancellation classification from `data/preprocessed/train.csv`, with booking-time-oriented feature exclusions and fixed missing-value rules. `src/classification/audit_training_data.py` writes focused audit tables to `outputs/classification/`.
+8. **Prepare classification training data (Milestone 1 preparation).** `src/preprocessing/classification/prepare_classification_data.py` builds a cleaned training dataset for cancellation classification from `data/preprocessed/train.csv`, with booking-time-oriented feature exclusions and fixed missing-value rules. `src/classification/audit_training_data.py` writes focused audit tables to `outputs/classification/`.
 
    ```powershell
    python src/preprocessing/classification/prepare_classification_data.py
@@ -66,6 +109,62 @@ The scripts below follow the order of our data analysis and preparation. Run the
    ```
 
    Details and assumptions are documented in `docs/classification_milestone1.md`.
+
+9. **Prepare, audit, and run the regression Milestone 1 baseline.** Regression
+   starts from shared `train.csv`, excludes zero-night bookings only in its own
+   view, and retains positive-night zero-rate bookings. The untuned Linear
+   Regression and mean-dummy comparison uses grouped five-fold cross-validation
+   with imputation, encoding, and scaling fitted separately inside each fold.
+
+   ```powershell
+   python src/preprocessing/regression/prepare_regression_data.py
+   python src/regression/audit_training_data.py
+   python src/regression/train_baseline.py --save-artifact
+   python -m unittest discover -s tests -v
+   ```
+
+   On 63,125 eligible training rows, pooled out-of-fold MAE / RMSE / R2 are
+   **14.563 / 21.105 / 0.702** for Linear Regression versus
+   **29.260 / 38.657 / approximately 0** for the dummy. These are preliminary
+   validation results, not final test results. Tables and figures are in
+   `outputs/regression/`; the optional local fitted pipeline is in
+   `artifacts/regression/`. The regression scripts never open `test.csv`.
+
+   See [the regression note](docs/regression_milestone1.md) for the feature list,
+   prediction-time assumptions, quality decisions, leakage audit, results, and
+   remaining plan.
+
+## Task folder convention
+
+| Content | Location |
+| --- | --- |
+| Shared cleaning and split | `src/preprocessing/`, `data/preprocessed/` |
+| Regression-specific preparation | `src/preprocessing/regression/` |
+| Optional reproducible regression data | `data/preprocessed/regression/` |
+| Regression audits and experiments | `src/regression/` |
+| Regression tables and figures | `outputs/regression/` |
+| Fitted regression pipelines | `artifacts/regression/` |
+| Derived features reused across tasks, if needed | `src/features/` |
+
+Classification and clustering follow the same task-folder pattern. Do not edit
+shared CSVs by hand or refit learned preprocessing on test data.
+
+## Documentation
+
+- **This README** is the team entry point: setup, shared workflow, task commands,
+  folder conventions, and current status.
+- [Regression Milestone 1](docs/regression_milestone1.md) contains the regression
+  feature decisions, leakage audit, experiment protocol, results, and remaining plan.
+- [Classification Milestone 1](docs/classification_milestone1.md) documents that
+  task's current preparation and assumptions.
+- [Regression artifacts](artifacts/regression/README.md) explains the generated
+  pipeline and how to recreate it locally.
+
+Local `.venv/`, `.python-runtime/`, and `.codex-task-cache/` folders are development
+tools, not project deliverables. They are ignored by Git and are not required in a
+fresh clone. Do not force-add them. Keep source, requirements, task notes, result
+tables, figures, and metadata in the repository. Also exclude local environments,
+caches, `.git/`, and fitted pipelines when creating a submission ZIP manually.
 
 ## Preprocessing decisions
 
@@ -93,4 +192,26 @@ The split audit confirms that all **79,162 preprocessed rows** are retained, no 
 
 Grouping by exact full rows prevents exact matches across the split; it does not establish whether two matching rows are actually the same booking.
 
-The current pipeline only applies the agreed removal and country-code rules. It does not yet handle missing `Children` and `Country`, resolve the remaining zero-ADR and zero-night cases, or encode and scale model features. Those decisions should be made for each modeling task, with any learned transformations fitted on training data only. No model has been implemented yet. For model selection, we plan grouped five-fold cross-validation on `train.csv`; `test.csv` is reserved for final evaluation.
+The shared pipeline only applies the agreed removal and country-code rules. Each
+task handles its own remaining missing values, quality decisions, encoding, and
+scaling. Regression now implements these steps and an untuned baseline with grouped
+five-fold cross-validation on `train.csv`. Its booking-creation scenario relies on
+unverified snapshot assumptions documented in the regression note. The existing
+outer split groups complete rows, so selected model inputs may still match across
+the holdout boundary after columns are removed. `test.csv` remains reserved for
+final model evaluation; the earlier shared split audit inspected its integrity and
+distributions but did not train or select a regression model.
+
+## Milestone 1 submission handoff
+
+The specification requires initial regression, classification, and clustering
+experiments now. The classification data-preparation note currently defers its
+experiment; its owner should add that baseline, and the clustering owner should
+complete its portion. The team must combine the progress report and identify
+members, GitHub accounts, and contributions.
+
+After committing the final submission version, record its actual SHA in the
+submission copy of the README (obtain it with `git rev-parse HEAD`). Exclude local
+Python/environment/cache folders and serialized fitted pipelines from the submission ZIP. Include source,
+regeneration commands, task notes, result tables, figures, and metadata. Fitted
+artifacts remain available locally for later development and the final discussion.

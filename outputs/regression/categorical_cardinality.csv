@@ -1,0 +1,10 @@
+column,distinct_nonmissing_categories,missing_rows
+ArrivalDateMonth,12,0
+Meal,4,0
+Country,153,16
+MarketSegment,8,0
+DistributionChannel,5,0
+ReservedRoomType,7,0
+Agent,216,0
+Company,181,0
+CustomerType,4,0
