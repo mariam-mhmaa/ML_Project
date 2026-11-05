@@ -5,6 +5,16 @@
 
 This project uses the City Hotel booking dataset (`data/raw/H2.csv`) for the CSE382 Introduction to Machine Learning project. The dataset has 79,330 bookings and 31 columns.
 
+## Team
+
+| Team | ID | Name | Grp | Sec | Major | GitHub |
+| --- | --- | --- | --- | --- | --- | --- |
+| 63 | 23P0111 | Ainour hesham abdelkader elshamy | 1 | 2 | MCTA | [ainourelshamy37-del](https://github.com/ainourelshamy37-del) |
+| 63 | 23P0195 | Mariam Mohamed Hashem Mahmoud Ahmed Abdelrahman | 1 | 1 | MCTA | [mariam-mhmaa](https://github.com/mariam-mhmaa) |
+| 63 | 23P0229 | Nour Alaaeldin Elsayed Aly Radwan | 1 | 1 | MCTA | [RadwanNour](https://github.com/RadwanNour) |
+| 63 | 2300124 | Roaa waleed ahmed elsayed | 1 | 1 | MCTA | [roaawaleedahmed5-pixel](https://github.com/roaawaleedahmed5-pixel) |
+| 63 | 1990002 | Kareem Nasrat Abdelsattar Nazlawi | 3 | 5 | CAIE | [Vergy-7](https://github.com/Vergy-7) |
+
 ## Setup
 
 Use **64-bit Python 3.13** (tested with 3.13.13). Install Python separately;
