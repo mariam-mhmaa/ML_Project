@@ -142,6 +142,24 @@ The scripts below follow the order of our data analysis and preparation. Run the
    prediction-time assumptions, quality decisions, leakage audit, results, and
    remaining plan.
 
+11. **Run the clustering Milestone 1 baseline.** The training-only K-Means
+   workflow derives eight booking-behaviour features, performs median imputation,
+   skew reduction, and scaling in one reproducible pipeline, and writes the
+   Silhouette Score, Davies-Bouldin Index, assignments, sizes, profiles, leakage
+   audit, heatmap, and metadata to `outputs/clustering/`.
+
+   ```powershell
+   python src/clustering/run_milestone1_baseline.py
+   python -m unittest discover -s tests -v
+   ```
+
+   The baseline uses all 63,329 training rows and never opens `test.csv`. Its
+   Silhouette Score is **0.2122** on a fixed 10,000-row sample and its
+   Davies-Bouldin Index is **1.3107**. See
+   [Member 5 clustering explanation](docs/clustering_milestone1_explanation.md)
+   for feature justification, parameter choices, full leakage audit, cluster
+   profiles, limitations, and the Milestone 2 experiment plan.
+
 ## Task folder convention
 
 | Content | Location |
@@ -152,6 +170,8 @@ The scripts below follow the order of our data analysis and preparation. Run the
 | Regression audits and experiments | `src/regression/` |
 | Regression tables and figures | `outputs/regression/` |
 | Fitted regression pipelines | `artifacts/regression/` |
+| Clustering baseline and audits | `src/clustering/`, `src/preprocessing/clustering/` |
+| Clustering tables and figures | `outputs/clustering/` |
 | Derived features reused across tasks, if needed | `src/features/` |
 
 Classification and clustering follow the same task-folder pattern. Do not edit
@@ -165,6 +185,11 @@ shared CSVs by hand or refit learned preprocessing on test data.
   feature decisions, leakage audit, experiment protocol, results, and remaining plan.
 - [Classification Milestone 1](docs/classification_milestone1.md) documents that
   task's current preparation and assumptions.
+- [Member 5 Clustering Milestone 1](docs/clustering_milestone1_explanation.md)
+  documents the segmentation purpose, selected attributes, leakage audit,
+  baseline results, profiles, and later experiment plan.
+- [Milestone 1 submission checklist](docs/milestone1_submission_checklist.md)
+  gives the report assembly order, fresh-setup commands, and ZIP exclusions.
 - [Regression artifacts](artifacts/regression/README.md) explains the generated
   pipeline and how to recreate it locally.
 
@@ -228,7 +253,6 @@ Completed classification work:
 
 Remaining team work:
 
-- clustering Milestone 1 experiment and reporting;
 - combined team progress report with member names, GitHub accounts, and
   contribution summary;
 - Milestone 2 final test-set evaluation using frozen workflows (no test-driven

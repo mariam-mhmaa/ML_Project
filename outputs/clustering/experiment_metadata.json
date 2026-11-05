@@ -1,0 +1,68 @@
+{
+  "milestone": 1,
+  "purpose": "Discover training-set booking behaviour segments without outcome labels.",
+  "training_input": "data\\preprocessed\\train.csv",
+  "training_input_sha256": "37e383e8ae9f723bdaffcacd27c2da93542d430ea5dc6a055f498933a3446511",
+  "test_data_used": false,
+  "source_features": [
+    "LeadTime",
+    "StaysInWeekendNights",
+    "StaysInWeekNights",
+    "Adults",
+    "Children",
+    "Babies",
+    "IsRepeatedGuest",
+    "PreviousCancellations",
+    "PreviousBookingsNotCanceled",
+    "RequiredCarParkingSpaces",
+    "TotalOfSpecialRequests"
+  ],
+  "model_features": [
+    "LeadTime",
+    "TotalNights",
+    "TotalGuests",
+    "IsRepeatedGuest",
+    "PreviousCancellations",
+    "PreviousBookingsNotCanceled",
+    "RequiredCarParkingSpaces",
+    "TotalOfSpecialRequests"
+  ],
+  "derived_features": {
+    "TotalNights": "StaysInWeekendNights + StaysInWeekNights",
+    "TotalGuests": "Adults + Children + Babies"
+  },
+  "preprocessing": {
+    "missing_values": "Median imputation inside the fitted pipeline; affects four missing Children values.",
+    "skew": "log1p for LeadTime, TotalNights, PreviousCancellations, and PreviousBookingsNotCanceled.",
+    "scaling": "StandardScaler on all eight model features before Euclidean K-Means."
+  },
+  "algorithm": {
+    "name": "KMeans",
+    "parameters": {
+      "algorithm": "lloyd",
+      "copy_x": true,
+      "init": "k-means++",
+      "max_iter": 300,
+      "n_clusters": 4,
+      "n_init": 10,
+      "random_state": 42,
+      "tol": 0.0001,
+      "verbose": 0
+    },
+    "parameter_status": "Initial untuned baseline; k=4 chosen a priori for a compact interpretable segmentation."
+  },
+  "metrics": {
+    "silhouette_score": 0.21216489710047062,
+    "silhouette_sample_rows": 10000,
+    "silhouette_sampling": "Fixed random sample from all training rows, random_state=42.",
+    "davies_bouldin_index": 1.3107392655879582,
+    "inertia": 290877.77605494077
+  },
+  "versions": {
+    "python": "3.11.11",
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "scikit_learn": "1.9.1",
+    "matplotlib": "3.11.0"
+  }
+}

@@ -91,7 +91,7 @@
     }
   },
   "versions": {
-    "python": "3.13.13",
+    "python": "3.11.11",
     "pandas": "3.0.3",
     "numpy": "2.4.6",
     "scikit-learn": "1.9.1",
@@ -102,5 +102,5 @@
   "hyperparameter_search": false,
   "target_clipping": false,
   "negative_oof_predictions": 230,
-  "artifact": "artifacts/regression/linear_regression_baseline.joblib"
+  "artifact": null
 }

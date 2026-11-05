@@ -1,0 +1,5 @@
+cluster,profile_name,booking_count,booking_share
+0,special-request bookings,22323,0.3524925389631922
+1,low-request standard bookings,38151,0.6024254291083074
+2,parking-space request bookings,1348,0.021285666914052013
+3,repeat-history guests,1507,0.023796365014448356

@@ -1,7 +1,14 @@
 {
+  "run_timestamps_utc": {
+    "started": "2026-11-05T12:35:45.186577+00:00",
+    "completed": "2026-11-05T12:37:57.054743+00:00"
+  },
   "input_data": {
-    "path": "C:\\Machine Learning\\Project\\ML_Project\\data\\preprocessed\\classification\\train_classification.csv",
+    "path": "D:\\Uni\\Fall 2026\\Machine Learning\\Project\\Repo\\ML_Project\\data\\preprocessed\\classification\\train_classification.csv",
     "sha256": "8bfa81c5c0c3174b1538009ddaa175fd656c624a7823daeb41fd30a4dc718fe1",
+    "sha256_bytes": "8bfa81c5c0c3174b1538009ddaa175fd656c624a7823daeb41fd30a4dc718fe1",
+    "sha256_utf8_lf_normalized": "38928ce36b1a77d4906664294f5bb8ecdc7947bb554703951ec256ce9146e7d2",
+    "text_hash_normalization": "UTF-8 text with LF line endings",
     "rows": 63329,
     "columns": [
       "LeadTime",
@@ -29,6 +36,173 @@
       "TotalOfSpecialRequests",
       "IsCanceled"
     ]
+  },
+  "source_state": {
+    "start": {
+      "captured_at_utc": "2026-11-05T12:35:46.298963+00:00",
+      "git_head": {
+        "available": true,
+        "sha": "32277d4a380fca65de1145717d0c1891e1d17b0e",
+        "failure_reason": null
+      },
+      "git_status": {
+        "available": true,
+        "state": "dirty",
+        "failure_reason": null
+      },
+      "worktree": {
+        "has_any_changes": true,
+        "has_tracked_changes": true,
+        "has_untracked_changes": true,
+        "has_relevant_source_changes": false,
+        "has_non_source_changes": true,
+        "tracked_change_paths": [
+          "README.md"
+        ],
+        "untracked_change_paths": [
+          "docs/clustering_milestone1_explanation.md",
+          "docs/milestone1_submission_checklist.md",
+          "outputs/clustering/",
+          "src/clustering/",
+          "src/preprocessing/clustering/",
+          "tests/test_clustering.py"
+        ],
+        "relevant_tracked_source_paths": [],
+        "relevant_untracked_source_paths": [],
+        "tracked_non_source_paths": [
+          "README.md"
+        ],
+        "untracked_non_source_paths": [
+          "docs/clustering_milestone1_explanation.md",
+          "docs/milestone1_submission_checklist.md",
+          "outputs/clustering/",
+          "src/clustering/",
+          "src/preprocessing/clustering/",
+          "tests/test_clustering.py"
+        ]
+      },
+      "source_code": {
+        "training_script": {
+          "path": "D:\\Uni\\Fall 2026\\Machine Learning\\Project\\Repo\\ML_Project\\src\\classification\\run_milestone1_baseline.py",
+          "relative_path": "src/classification/run_milestone1_baseline.py",
+          "sha256_bytes": "9d398961b6dbfaaadb4654b0d3b4e93fc7bf238ac2fa82eded7179a461c8a316",
+          "sha256_utf8_lf_normalized": "c077b2910fdfb4e4f8026f02184bcb78cec010c658fc1b8c45c6c0698ed30820",
+          "text_hash_normalization": "UTF-8 text with LF line endings",
+          "read_error": null
+        },
+        "classification_preprocessing": {
+          "path": "D:\\Uni\\Fall 2026\\Machine Learning\\Project\\Repo\\ML_Project\\src\\preprocessing\\classification\\preprocessing.py",
+          "relative_path": "src/preprocessing/classification/preprocessing.py",
+          "sha256_bytes": "a0220fec53f23810d32f5fa0e95a573d442cf7607fd21fa0b82bdab83c7ff000",
+          "sha256_utf8_lf_normalized": "b1b7e68425c5309c27c36851236321ecf88844d6c3ddb31861b10737d00547fb",
+          "text_hash_normalization": "UTF-8 text with LF line endings",
+          "read_error": null
+        },
+        "classification_prepare_script": {
+          "path": "D:\\Uni\\Fall 2026\\Machine Learning\\Project\\Repo\\ML_Project\\src\\preprocessing\\classification\\prepare_classification_data.py",
+          "relative_path": "src/preprocessing/classification/prepare_classification_data.py",
+          "sha256_bytes": "a741aa5dd44dd910c09fb33d74164604f61e466dc982db0d4e5c1bcc57946a48",
+          "sha256_utf8_lf_normalized": "addc43eda436592086b6827ef8b5b8c5dbd2a1f5757fb1c6a6fd32fd385e48f2",
+          "text_hash_normalization": "UTF-8 text with LF line endings",
+          "read_error": null
+        }
+      }
+    },
+    "end": {
+      "captured_at_utc": "2026-11-05T12:37:57.054743+00:00",
+      "git_head": {
+        "available": true,
+        "sha": "32277d4a380fca65de1145717d0c1891e1d17b0e",
+        "failure_reason": null
+      },
+      "git_status": {
+        "available": true,
+        "state": "dirty",
+        "failure_reason": null
+      },
+      "worktree": {
+        "has_any_changes": true,
+        "has_tracked_changes": true,
+        "has_untracked_changes": true,
+        "has_relevant_source_changes": false,
+        "has_non_source_changes": true,
+        "tracked_change_paths": [
+          "README.md",
+          "outputs/classification/cv_oof_pooled_metrics.csv",
+          "outputs/classification/cv_per_fold_training_metrics.csv",
+          "outputs/classification/cv_per_fold_validation_metrics.csv",
+          "outputs/classification/cv_validation_summary_mean_std.csv",
+          "outputs/classification/oof_precision_recall_curve_comparison.png",
+          "outputs/classification/oof_predictions_random_forest.csv",
+          "outputs/classification/oof_roc_curve_comparison.png",
+          "outputs/classification/rf_vs_dummy_comparison.csv"
+        ],
+        "untracked_change_paths": [
+          "docs/clustering_milestone1_explanation.md",
+          "docs/milestone1_submission_checklist.md",
+          "outputs/clustering/",
+          "src/clustering/",
+          "src/preprocessing/clustering/",
+          "tests/test_clustering.py"
+        ],
+        "relevant_tracked_source_paths": [],
+        "relevant_untracked_source_paths": [],
+        "tracked_non_source_paths": [
+          "README.md",
+          "outputs/classification/cv_oof_pooled_metrics.csv",
+          "outputs/classification/cv_per_fold_training_metrics.csv",
+          "outputs/classification/cv_per_fold_validation_metrics.csv",
+          "outputs/classification/cv_validation_summary_mean_std.csv",
+          "outputs/classification/oof_precision_recall_curve_comparison.png",
+          "outputs/classification/oof_predictions_random_forest.csv",
+          "outputs/classification/oof_roc_curve_comparison.png",
+          "outputs/classification/rf_vs_dummy_comparison.csv"
+        ],
+        "untracked_non_source_paths": [
+          "docs/clustering_milestone1_explanation.md",
+          "docs/milestone1_submission_checklist.md",
+          "outputs/clustering/",
+          "src/clustering/",
+          "src/preprocessing/clustering/",
+          "tests/test_clustering.py"
+        ]
+      },
+      "source_code": {
+        "training_script": {
+          "path": "D:\\Uni\\Fall 2026\\Machine Learning\\Project\\Repo\\ML_Project\\src\\classification\\run_milestone1_baseline.py",
+          "relative_path": "src/classification/run_milestone1_baseline.py",
+          "sha256_bytes": "9d398961b6dbfaaadb4654b0d3b4e93fc7bf238ac2fa82eded7179a461c8a316",
+          "sha256_utf8_lf_normalized": "c077b2910fdfb4e4f8026f02184bcb78cec010c658fc1b8c45c6c0698ed30820",
+          "text_hash_normalization": "UTF-8 text with LF line endings",
+          "read_error": null
+        },
+        "classification_preprocessing": {
+          "path": "D:\\Uni\\Fall 2026\\Machine Learning\\Project\\Repo\\ML_Project\\src\\preprocessing\\classification\\preprocessing.py",
+          "relative_path": "src/preprocessing/classification/preprocessing.py",
+          "sha256_bytes": "a0220fec53f23810d32f5fa0e95a573d442cf7607fd21fa0b82bdab83c7ff000",
+          "sha256_utf8_lf_normalized": "b1b7e68425c5309c27c36851236321ecf88844d6c3ddb31861b10737d00547fb",
+          "text_hash_normalization": "UTF-8 text with LF line endings",
+          "read_error": null
+        },
+        "classification_prepare_script": {
+          "path": "D:\\Uni\\Fall 2026\\Machine Learning\\Project\\Repo\\ML_Project\\src\\preprocessing\\classification\\prepare_classification_data.py",
+          "relative_path": "src/preprocessing/classification/prepare_classification_data.py",
+          "sha256_bytes": "a741aa5dd44dd910c09fb33d74164604f61e466dc982db0d4e5c1bcc57946a48",
+          "sha256_utf8_lf_normalized": "addc43eda436592086b6827ef8b5b8c5dbd2a1f5757fb1c6a6fd32fd385e48f2",
+          "text_hash_normalization": "UTF-8 text with LF line endings",
+          "read_error": null
+        }
+      }
+    },
+    "diff": {
+      "relevant_source_files_changed_during_run": false,
+      "changed_source_file_keys": [],
+      "source_files_unchanged_during_run": [
+        "classification_prepare_script",
+        "classification_preprocessing",
+        "training_script"
+      ]
+    }
   },
   "random_seed": 42,
   "n_splits": 5,
@@ -62,29 +236,18 @@
     }
   },
   "package_versions": {
-    "python": "3.11.9",
+    "python": "3.11.11",
     "pandas": "3.0.3",
     "numpy": "2.4.6",
     "scikit_learn": "1.9.1",
     "joblib": "1.6.0",
     "matplotlib": "3.11.0"
   },
-  "source_commit": "30e48f133ea549d50e44118d916310c4b350e03f",
-  "historical_provenance_annotation": {
-    "scope": "This metadata corresponds to an existing historical run output.",
-    "recorded_fields_limit": "The historical record stores one Git HEAD value but does not store run timestamps, worktree dirty/untracked state, or source-file hashes.",
-    "interpretation": "Recorded HEAD alone cannot fully identify all source code used for that historical run.",
-    "not_recorded_historically": {
-      "run_started_utc": null,
-      "run_completed_utc": null,
-      "worktree_state": null,
-      "source_code_hashes": null
-    },
-    "input_hash_note": "input_data.sha256 is a byte-level hash of the CSV file. Cross-platform text exports can differ by line endings (CRLF vs LF) without changing tabular values."
-  },
+  "source_commit": "32277d4a380fca65de1145717d0c1891e1d17b0e",
   "notes": {
     "primary_metric": "f1_canceled",
     "probability_metrics_use_predicted_probability_of_class_1": true,
-    "zero_division_policy": 0
+    "zero_division_policy": 0,
+    "provenance_interpretation": "Start and end source snapshots distinguish relevant source-code changes from ordinary generated-output changes during a run. Git metadata may be unavailable when running from a downloaded ZIP."
   }
 }

@@ -1,0 +1,2 @@
+algorithm,configuration,n_clusters,training_rows,silhouette_score,silhouette_sample_rows,davies_bouldin_index,inertia,fit_seconds
+KMeans,milestone1_untuned_baseline,4,63329,0.21216489710047062,10000,1.3107392655879582,290877.77605494077,0.9581991999984893

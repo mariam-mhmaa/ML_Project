@@ -1,0 +1,32 @@
+source_column,decision,reason
+ADR,excluded_leakage_risk,Price/outcome field reserved for regression; it could dominate segment identity.
+Adults,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
+Agent,excluded_baseline_focus,High-cardinality identifier-like field excluded from this baseline.
+ArrivalDateDayOfMonth,excluded_baseline_focus,Calendar field omitted from the compact behavioural baseline.
+ArrivalDateMonth,excluded_baseline_focus,Calendar field omitted from the compact behavioural baseline.
+ArrivalDateWeekNumber,excluded_baseline_focus,Calendar field omitted from the compact behavioural baseline.
+ArrivalDateYear,excluded_baseline_focus,Calendar field omitted from the compact behavioural baseline.
+AssignedRoomType,excluded_leakage_risk,Ultimate room assignment can occur after booking creation.
+Babies,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
+BookingChanges,excluded_leakage_risk,Cumulative amendments before check-in or cancellation.
+Children,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
+Company,excluded_baseline_focus,High-cardinality identifier-like field excluded from this baseline.
+Country,excluded_baseline_focus,High-cardinality geography deferred to later experiments.
+CustomerType,excluded_baseline_focus,Categorical field deferred to later mixed-feature experiments.
+DaysInWaitingList,excluded_leakage_risk,Completed waiting duration is not known at booking creation.
+DepositType,excluded_leakage_risk,Payment-related state and timing are not verified at booking creation.
+DistributionChannel,excluded_baseline_focus,Business-source category deferred to later experiments.
+IsCanceled,excluded_leakage_risk,Final cancellation outcome.
+IsRepeatedGuest,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
+LeadTime,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
+MarketSegment,excluded_baseline_focus,Business-source category deferred to later mixed-feature experiments.
+Meal,excluded_baseline_focus,Categorical preference deferred to later mixed-feature experiments.
+PreviousBookingsNotCanceled,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
+PreviousCancellations,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
+RequiredCarParkingSpaces,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
+ReservationStatus,excluded_leakage_risk,Final reservation outcome.
+ReservationStatusDate,excluded_leakage_risk,Date on which the final status was recorded.
+ReservedRoomType,excluded_baseline_focus,Room category deferred to later mixed-feature experiments.
+StaysInWeekNights,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
+StaysInWeekendNights,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
+TotalOfSpecialRequests,included_or_used_in_derived_feature,Booking-creation attribute used in the behavioural segmentation.
