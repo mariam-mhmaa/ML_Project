@@ -1,7 +1,7 @@
 # City Hotel Booking ML Project
 
 - **GitHub repository:** https://github.com/mariam-mhmaa/ML_Project
-- **Submission commit SHA:** Get this after the final commit with `git rev-parse HEAD` and provide it in the submission form.
+- **Last commit before this README update (Submitted commit SHA):** `1c2d2df8f5c5ed73877b2b05c864747b93849055`
 
 This project uses the City Hotel booking dataset (`data/raw/H2.csv`) for the CSE382 Introduction to Machine Learning project. The dataset has 79,330 bookings and 31 columns.
 
